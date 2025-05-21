@@ -1,9 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1747267308.37426 "c:/Rafael/UFRJ/TCC/Proposta - Rafael Gabriel/principal.tex" "principal.pdf" "principal" 1747267309.26076 0
+["pdflatex"] 1747788552.74722 "c:/Rafael/UFRJ/TCC/Proposta - Rafael Gabriel/principal.tex" "principal.pdf" "principal" 1747788553.76794 0
   "FormatoPack.tex" 1747265843 767 00d3a718eb7bdc82145f56ff2979835a ""
   "PAGINA.STY" 1746998978 461 25cbbf1df448467ade716444e692ea2c ""
   "ROTATING.STY" 1746998978 4432 bb6ecf60c864b096ab48e6f7c3aebf6f ""
-  "c:/Rafael/UFRJ/TCC/Proposta - Rafael Gabriel/principal.tex" 1747267307 1169 6b134af0427ddec72d53b07c935beb83 ""
+  "c:/Rafael/UFRJ/TCC/Proposta - Rafael Gabriel/principal.tex" 1747788552 3111 8676d8f0777517474ce240ee4aa5f0ab ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1746990090 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1746988630 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1746988630 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -13,8 +13,10 @@
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1746988630 940 75ac932a52f80982a9f8ea75d03a34cf ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1746988630 940 228d6584342e91276bf566bcf9716b83 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1746989154 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1746989154 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1746988630 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1746988630 35752 024fb6c41858982481f6968b5fc26508 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1746988630 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1746991441 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "c:/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf" 1746988750 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
   "c:/texlive/2025/texmf-dist/tex/generic/babel-portuges/brazil.ldf" 1746988772 6591 308dec8ccec5a8d302be8a046d473dd3 ""
@@ -99,8 +101,8 @@
   "c:/texlive/2025/texmf.cnf" 1746993559 713 e69b156964470283e0530f5060668171 ""
   "indentfirst.sty" 1746998978 791 669543ca2dcbd5c0e900e06ead6a7a98 ""
   "portland.sty" 1746998978 4506 7f921b219e91e285c7349b95161b2418 ""
-  "principal.aux" 1747267309 169 f0defdf652dca380c4deeffb4b63cfb0 "pdflatex"
-  "principal.tex" 1747267307 1169 6b134af0427ddec72d53b07c935beb83 ""
+  "principal.aux" 1747788553 169 f0defdf652dca380c4deeffb4b63cfb0 "pdflatex"
+  "principal.tex" 1747788552 3111 8676d8f0777517474ce240ee4aa5f0ab ""
   (generated)
   "principal.aux"
   "principal.log"

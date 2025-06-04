@@ -1,9 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1748902335.06929 "c:/Rafael/UFRJ/TCC/Proposta - Rafael Gabriel/principal.tex" "principal.pdf" "principal" 1748902335.97191 0
+["pdflatex"] 1749081535.50439 "c:/Rafael/UFRJ/TCC/Proposta - Rafael Gabriel/principal.tex" "principal.pdf" "principal" 1749081536.41123 0
   "FormatoPack.tex" 1747265843 767 00d3a718eb7bdc82145f56ff2979835a ""
   "PAGINA.STY" 1746998978 461 25cbbf1df448467ade716444e692ea2c ""
   "ROTATING.STY" 1746998978 4432 bb6ecf60c864b096ab48e6f7c3aebf6f ""
-  "c:/Rafael/UFRJ/TCC/Proposta - Rafael Gabriel/principal.tex" 1748902334 3952 acda57b124816ed621600b30df27aced ""
+  "c:/Rafael/UFRJ/TCC/Proposta - Rafael Gabriel/principal.tex" 1749081534 5221 ae10fa7ba4a3dd4f4b5ab97e34a0b16d ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1746990090 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1746988630 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1746988630 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -101,8 +101,8 @@
   "c:/texlive/2025/texmf.cnf" 1746993559 713 e69b156964470283e0530f5060668171 ""
   "indentfirst.sty" 1746998978 791 669543ca2dcbd5c0e900e06ead6a7a98 ""
   "portland.sty" 1746998978 4506 7f921b219e91e285c7349b95161b2418 ""
-  "principal.aux" 1748902335 169 a61004e3b455f3036ba22fffbf3df86e "pdflatex"
-  "principal.tex" 1748902334 3952 acda57b124816ed621600b30df27aced ""
+  "principal.aux" 1749081536 169 a61004e3b455f3036ba22fffbf3df86e "pdflatex"
+  "principal.tex" 1749081534 5221 ae10fa7ba4a3dd4f4b5ab97e34a0b16d ""
   (generated)
   "principal.aux"
   "principal.log"

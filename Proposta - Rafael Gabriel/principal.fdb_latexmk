@@ -1,10 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1749515117.60842 "c:/Rafael/UFRJ/TCC/Proposta - Rafael Gabriel/principal.tex" "principal.pdf" "principal" 1749515118.59415 0
+["pdflatex"] 1750813839.74488 "c:/Rafael/UFRJ/TCC/Proposta - Rafael Gabriel/principal.tex" "principal.pdf" "principal" 1750813840.68423 0
   "Figuras/image.png" 1749515096 6241 22627860ee170ca43732678c8d5eb41f ""
   "FormatoPack.tex" 1749514987 812 79bad5a2cf343e62e74b3bcf3157afb5 ""
   "PAGINA.STY" 1746998978 461 25cbbf1df448467ade716444e692ea2c ""
   "ROTATING.STY" 1746998978 4432 bb6ecf60c864b096ab48e6f7c3aebf6f ""
-  "c:/Rafael/UFRJ/TCC/Proposta - Rafael Gabriel/principal.tex" 1749515116 6373 db75da6ed511fbde12e70dc90111982b ""
+  "c:/Rafael/UFRJ/TCC/Proposta - Rafael Gabriel/principal.tex" 1750813839 6373 5c8752be24d717fb37cdcfa52c2efb46 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1746989158 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1746990090 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1746989638 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -106,8 +106,8 @@
   "c:/texlive/2025/texmf.cnf" 1746993559 713 e69b156964470283e0530f5060668171 ""
   "indentfirst.sty" 1746998978 791 669543ca2dcbd5c0e900e06ead6a7a98 ""
   "portland.sty" 1746998978 4506 7f921b219e91e285c7349b95161b2418 ""
-  "principal.aux" 1749515118 332 da4750c2502df80757be3ca84f21af7f "pdflatex"
-  "principal.tex" 1749515116 6373 db75da6ed511fbde12e70dc90111982b ""
+  "principal.aux" 1750813840 332 da4750c2502df80757be3ca84f21af7f "pdflatex"
+  "principal.tex" 1750813839 6373 5c8752be24d717fb37cdcfa52c2efb46 ""
   (generated)
   "principal.aux"
   "principal.log"

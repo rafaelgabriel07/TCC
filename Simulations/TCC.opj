@@ -35,9 +35,7 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn")
-      (Select "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn"
-         "LoudnessControl"))
+      (Path "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")

@@ -1,7 +1,7 @@
 
-**** 08/14/25 18:51:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 08/20/25 18:19:13 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "TPA3112D1-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\TPA3112D1\Transient.sim ] 
+ ** Profile: "TPA3112D1-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\tcc-pspicefiles\tpa3112d1\transient.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -36,11 +36,11 @@
 C_C2         N00496 N00500  1u  TC=0,0 
 C_C1         0 N00504  1u  TC=0,0 
 V_V1         N00496 0  AC 0
-+SIN 0 1 1k 0 0 0
++SIN 0 1.414 1k 0 0 0
 X_U1         0 0 N00564 N00504 N00500 N23014 N23074 N00709 N00709 0 TPA3111D1
 V_V3         N00709 0 24
 V_V2         N00564 0 5
-R_R2         N23070 N23010  8  
+R_R2         N23070 N23010  4  
 L_L2         N23074 N23070  33uH  
 C_C3         0 N23070  1u  
 C_C4         0 N23010  1u  
@@ -49,9 +49,9 @@ L_L1         N23014 N23010  33uH
 **** RESUMING Transient.cir ****
 .END
 
-**** 08/14/25 18:51:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 08/20/25 18:19:13 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "TPA3112D1-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\TPA3112D1\Transient.sim ] 
+ ** Profile: "TPA3112D1-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\tcc-pspicefiles\tpa3112d1\transient.sim ] 
 
 
  ****     Diode MODEL PARAMETERS
@@ -67,9 +67,9 @@ L_L1         N23014 N23010  33uH
            N     .01         
 
 
-**** 08/14/25 18:51:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 08/20/25 18:19:13 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "TPA3112D1-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\TPA3112D1\Transient.sim ] 
+ ** Profile: "TPA3112D1-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\tcc-pspicefiles\tpa3112d1\transient.sim ] 
 
 
  ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -98,7 +98,7 @@ L_L1         N23014 N23010  33uH
 
 (X_U1.XU1.27)    3.0000               (X_U1.XU1.28)    3.0000                   
 
-(X_U1.XU1.29)    2.9996               (X_U1.XU1.30)    3.0004                   
+(X_U1.XU1.29)    3.0000               (X_U1.XU1.30)    3.0000                   
 
 (X_U1.XU1.31)    6.0000               (X_U1.XU1.32)    0.0000                   
 
@@ -128,9 +128,9 @@ L_L1         N23014 N23010  33uH
 
 (X_U1.XU1.XU6.VS4)    1.0000          (X_U1.XU1.XU1.VIBN)    3.0000             
 
-(X_U1.XU1.XU1.VIBP)    3.0000         (X_U1.XU1.XU11.FP1)    2.9996             
+(X_U1.XU1.XU1.VIBP)    3.0000         (X_U1.XU1.XU11.FP1)    3.0000             
 
-(X_U1.XU1.XU11.FP2)    3.0004         (X_U1.XU1.XU11.VCM)    3.0000             
+(X_U1.XU1.XU11.FP2)    3.0000         (X_U1.XU1.XU11.VCM)    3.0000             
 
 (X_U1.XU1.XU12.VNA)    0.0000         (X_U1.XU1.XU12.VNB)    0.0000             
 
@@ -138,7 +138,7 @@ L_L1         N23014 N23010  33uH
 
 (X_U1.XU1.XU12.VYA)    0.0000         (X_U1.XU1.XU12.VYB)    0.0000             
 
-(X_U1.XU1.XU11.VIBN)    3.0004        (X_U1.XU1.XU11.VIBP)    2.9996            
+(X_U1.XU1.XU11.VIBN)    3.0000        (X_U1.XU1.XU11.VIBP)    3.0000            
 
 (X_U1.XU1.XU10.VBETA)  600.0000       (X_U1.XU1.XU10.VSDBX)    1.0000           
 
@@ -183,13 +183,16 @@ L_L1         N23014 N23010  33uH
 
     TOTAL POWER DISSIPATION   5.76E-01  WATTS
 
+Reducing minimum delta to make the circuit converge.
+Reducing minimum delta to make the circuit converge.
+Reducing minimum delta to make the circuit converge.
 
 
           JOB CONCLUDED
 
-**** 08/14/25 18:51:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 08/20/25 18:19:13 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "TPA3112D1-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\TPA3112D1\Transient.sim ] 
+ ** Profile: "TPA3112D1-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\tcc-pspicefiles\tpa3112d1\transient.sim ] 
 
 
  ****     JOB STATISTICS SUMMARY
@@ -199,5 +202,5 @@ L_L1         N23014 N23010  33uH
 
 
 
-  Total job time (using Solver 1)   =       11.77
+  Total job time (using Solver 1)   =       15.69
 

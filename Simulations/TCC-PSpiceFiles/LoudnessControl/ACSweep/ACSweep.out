@@ -1,0 +1,96 @@
+
+**** 08/20/25 18:21:07 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "LoudnessControl-ACSweep"  [ C:\Rafael\UFRJ\TCC\Simulations\tcc-pspicefiles\loudnesscontrol\acsweep.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "ACSweep.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 1000 10 1Meg
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\LoudnessControl.net" 
+
+
+
+**** INCLUDING LoudnessControl.net ****
+* source TCC
+C_C1         N00243 N00268  0.22n  TC=0,0 
+C_C2         N00321 N00243  47n  TC=0,0 
+R_R2         0 N00321  6.7k TC=0,0 
+R_R3         0 N00243  10k TC=0,0 
+R_R4         N00243 N00256  10k TC=0,0 
+R_R5         N00256 N00260  30k TC=0,0 
+R_R6         N00260 N00264  30k TC=0,0 
+R_R7         N00264 N00268  20k TC=0,0 
+V_V1         N00268 0  AC 1
++SIN 0 1 1k 0 0 0
+
+**** RESUMING ACSweep.cir ****
+.END
+
+**** 08/20/25 18:21:07 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "LoudnessControl-ACSweep"  [ C:\Rafael\UFRJ\TCC\Simulations\tcc-pspicefiles\loudnesscontrol\acsweep.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00243)    0.0000 (N00256)    0.0000 (N00260)    0.0000 (N00264)    0.0000     
+
+(N00268)    0.0000 (N00321)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 08/20/25 18:21:07 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "LoudnessControl-ACSweep"  [ C:\Rafael\UFRJ\TCC\Simulations\tcc-pspicefiles\loudnesscontrol\acsweep.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .33
+

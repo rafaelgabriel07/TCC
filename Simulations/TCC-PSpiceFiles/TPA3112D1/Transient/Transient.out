@@ -1,0 +1,203 @@
+
+**** 08/14/25 18:51:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "TPA3112D1-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\TPA3112D1\Transient.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Transient.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1m 0 1u 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\TPA3112D1.net" 
+
+
+
+**** INCLUDING TPA3112D1.net ****
+* source TCC
+C_C2         N00496 N00500  1u  TC=0,0 
+C_C1         0 N00504  1u  TC=0,0 
+V_V1         N00496 0  AC 0
++SIN 0 1 1k 0 0 0
+X_U1         0 0 N00564 N00504 N00500 N23014 N23074 N00709 N00709 0 TPA3111D1
+V_V3         N00709 0 24
+V_V2         N00564 0 5
+R_R2         N23070 N23010  8  
+L_L2         N23074 N23070  33uH  
+C_C3         0 N23070  1u  
+C_C4         0 N23010  1u  
+L_L1         N23014 N23010  33uH  
+
+**** RESUMING Transient.cir ****
+.END
+
+**** 08/14/25 18:51:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "TPA3112D1-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\TPA3112D1\Transient.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.XU1.XU10.IDEAL_DIODE 
+          IS   10.000000E-15 
+           N     .01         
+
+
+**** 08/14/25 18:51:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "TPA3112D1-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\TPA3112D1\Transient.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00496)    0.0000 (N00500)   23.9950 (N00504)   23.9950 (N00564)    5.0000     
+
+(N00709)   24.0000 (N23010)   23.9950 (N23014)   23.9950 (N23070)   23.9950     
+
+(N23074)   23.9950 (X_U1.17)     .0048                   (X_U1.18)   23.9950    
+
+(X_U1.19)    6.0000                   (X_U1.20)   26.0000                       
+
+(X_U1.AVCC)    6.0000                 (X_U1.VREF)    2.0000                     
+
+(X_U1.XU7.1)   -1.0000                (X_U1.XU1.24)   23.9950                   
+
+(X_U1.XU1.25)    3.0000               (X_U1.XU1.26)    3.0000                   
+
+(X_U1.XU1.27)    3.0000               (X_U1.XU1.28)    3.0000                   
+
+(X_U1.XU1.29)    2.9996               (X_U1.XU1.30)    3.0004                   
+
+(X_U1.XU1.31)    6.0000               (X_U1.XU1.32)    0.0000                   
+
+(X_U1.XU1.33)    0.0000               (X_U1.XU1.34)    6.0000                   
+
+(X_U1.XU1.35)   23.9950               (X_U1.XU1.36)    6.0000                   
+
+(X_U1.XU1.37)    6.0000               (X_U1.XU1.G0)    0.0000                   
+
+(X_U1.XU1.G1)    0.0000               (X_U1.PVCC_16)   24.0000                  
+
+(X_U1.XU7.VCM)    3.0000              (X_U1.XU1.PLIM)   23.9950                 
+
+(X_U1.XU1.XU4.2)   23.9950            (X_U1.XU1.XU4.3)   23.9950                
+
+(X_U1.XU1.XU6.2)   23.9950            (X_U1.XU1.XU6.3)   23.9950                
+
+(X_U1.XU1.XU1.FP1)    3.0000          (X_U1.XU1.XU1.FP2)    3.0000              
+
+(X_U1.XU1.XU1.VCM)    3.0000          (X_U1.XU1.XU4.VS1)    0.0000              
+
+(X_U1.XU1.XU4.VS2)    0.0000          (X_U1.XU1.XU4.VS3)    0.0000              
+
+(X_U1.XU1.XU4.VS4)    1.0000          (X_U1.XU1.XU6.VS1)    0.0000              
+
+(X_U1.XU1.XU6.VS2)    0.0000          (X_U1.XU1.XU6.VS3)    0.0000              
+
+(X_U1.XU1.XU6.VS4)    1.0000          (X_U1.XU1.XU1.VIBN)    3.0000             
+
+(X_U1.XU1.XU1.VIBP)    3.0000         (X_U1.XU1.XU11.FP1)    2.9996             
+
+(X_U1.XU1.XU11.FP2)    3.0004         (X_U1.XU1.XU11.VCM)    3.0000             
+
+(X_U1.XU1.XU12.VNA)    0.0000         (X_U1.XU1.XU12.VNB)    0.0000             
+
+(X_U1.XU1.XU12.VXA)    6.0000         (X_U1.XU1.XU12.VXB)    6.0000             
+
+(X_U1.XU1.XU12.VYA)    0.0000         (X_U1.XU1.XU12.VYB)    0.0000             
+
+(X_U1.XU1.XU11.VIBN)    3.0004        (X_U1.XU1.XU11.VIBP)    2.9996            
+
+(X_U1.XU1.XU10.VBETA)  600.0000       (X_U1.XU1.XU10.VSDBX)    1.0000           
+
+(X_U1.XU1.XU10.VSSSX)    1.0000       (X_U1.XU1.XU12.X1.VA)    1.0000           
+
+(X_U1.XU1.XU12.X1.VB)    1.0000       (X_U1.XU1.XU12.X4.VA)    0.0000           
+
+(X_U1.XU1.XU12.X4.VB)    0.0000       (X_U1.XU1.XU12.X6.VA)    1.0000           
+
+(X_U1.XU1.XU12.X6.VB)    1.0000       (X_U1.XU1.XU12.X9.VA)    0.0000           
+
+(X_U1.XU1.XU12.X9.VB)    0.0000       (X_U1.XU1.XU12.X0.VIX)    6.0000          
+
+(X_U1.XU1.XU12.X0.VOX)    6.0000      (X_U1.XU1.XU12.X1.VCM)    3.0000          
+
+(X_U1.XU1.XU12.X2.VCM)    3.0000      (X_U1.XU1.XU12.X3.VIX)    0.0000          
+
+(X_U1.XU1.XU12.X3.VOX)    0.0000      (X_U1.XU1.XU12.X4.VCM)    3.0000          
+
+(X_U1.XU1.XU12.X5.VIX)    6.0000      (X_U1.XU1.XU12.X5.VOX)    6.0000          
+
+(X_U1.XU1.XU12.X6.VCM)    3.0000      (X_U1.XU1.XU12.X7.VCM)    3.0000          
+
+(X_U1.XU1.XU12.X8.VIX)    0.0000      (X_U1.XU1.XU12.X8.VOX)    0.0000          
+
+(X_U1.XU1.XU12.X9.VCM)    3.0000      
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+    V_V3        -2.399E-02
+    V_V2         0.000E+00
+    X_U1.V3      0.000E+00
+    X_U1.V1      0.000E+00
+    X_U1.XU7.VTR   0.000E+00
+    X_U1.XU1.XU4.VSEI   0.000E+00
+    X_U1.XU1.XU6.VSEI   0.000E+00
+
+    TOTAL POWER DISSIPATION   5.76E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 08/14/25 18:51:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "TPA3112D1-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\TPA3112D1\Transient.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =       11.77
+

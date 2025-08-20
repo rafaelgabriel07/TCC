@@ -1,0 +1,206 @@
+
+**** 08/14/25 18:50:18 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-trans"  [ C:\Rafael\UFRJ\TCC\Simulations\LIB\TPA3111D1\tpa3111d1-pspicefiles\schematic1\trans.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "trans.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../tpa3111d1.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1m 0 1u 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TPA3111D1
+V_V1         N23144 0 5Vdc
+V_V2         N16233 0 24Vdc
+E_E1         N15960 0 N14773 0 0.5
+E_E2         0 N15013 N14773 0 0.5
+L_L1         N22789 N17635  33uH  
+C_C1         N15960 N15991  1u  
+V_V3         N14773 0  
++SIN 0 1 1k 0 0 0
+L_L2         N22838 N17110  33uH  
+C_C3         0 N17110  1u  
+C_C4         0 N17635  1u  
+R_R1         N17110 N17635  8  
+C_C2         N15013 N22889  1u  
+X_U1         0 0 N23144 N22889 N15991 N22789 N22838 N16233 N16233 0 TPA3111D1
+
+**** RESUMING trans.cir ****
+.END
+
+**** 08/14/25 18:50:18 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-trans"  [ C:\Rafael\UFRJ\TCC\Simulations\LIB\TPA3111D1\tpa3111d1-pspicefiles\schematic1\trans.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.XU1.XU10.IDEAL_DIODE 
+          IS   10.000000E-15 
+           N     .01         
+
+
+**** 08/14/25 18:50:18 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-trans"  [ C:\Rafael\UFRJ\TCC\Simulations\LIB\TPA3111D1\tpa3111d1-pspicefiles\schematic1\trans.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N14773)    0.0000 (N15013)    0.0000 (N15960)    0.0000 (N15991)   23.9950     
+
+(N16233)   24.0000 (N17110)   23.9950 (N17635)   23.9950 (N22789)   23.9950     
+
+(N22838)   23.9950 (N22889)   23.9950 (N23144)    5.0000 (X_U1.17)     .0048    
+
+(X_U1.18)   23.9950                   (X_U1.19)    6.0000                       
+
+(X_U1.20)   26.0000                   (X_U1.AVCC)    6.0000                     
+
+(X_U1.VREF)    2.0000                 (X_U1.XU7.1)   -1.0000                    
+
+(X_U1.XU1.24)   23.9950               (X_U1.XU1.25)    3.0000                   
+
+(X_U1.XU1.26)    3.0000               (X_U1.XU1.27)    3.0000                   
+
+(X_U1.XU1.28)    3.0000               (X_U1.XU1.29)    3.0002                   
+
+(X_U1.XU1.30)    2.9998               (X_U1.XU1.31)    6.0000                   
+
+(X_U1.XU1.32)    0.0000               (X_U1.XU1.33)    0.0000                   
+
+(X_U1.XU1.34)    6.0000               (X_U1.XU1.35)   23.9950                   
+
+(X_U1.XU1.36)    6.0000               (X_U1.XU1.37)    6.0000                   
+
+(X_U1.XU1.G0)    0.0000               (X_U1.XU1.G1)    0.0000                   
+
+(X_U1.PVCC_16)   24.0000              (X_U1.XU7.VCM)    3.0000                  
+
+(X_U1.XU1.PLIM)   23.9950             (X_U1.XU1.XU4.2)   23.9950                
+
+(X_U1.XU1.XU4.3)   23.9950            (X_U1.XU1.XU6.2)   23.9950                
+
+(X_U1.XU1.XU6.3)   23.9950            (X_U1.XU1.XU1.FP1)    3.0000              
+
+(X_U1.XU1.XU1.FP2)    3.0000          (X_U1.XU1.XU1.VCM)    3.0000              
+
+(X_U1.XU1.XU4.VS1)    0.0000          (X_U1.XU1.XU4.VS2)    0.0000              
+
+(X_U1.XU1.XU4.VS3)    0.0000          (X_U1.XU1.XU4.VS4)    1.0000              
+
+(X_U1.XU1.XU6.VS1)    0.0000          (X_U1.XU1.XU6.VS2)    0.0000              
+
+(X_U1.XU1.XU6.VS3)    0.0000          (X_U1.XU1.XU6.VS4)    1.0000              
+
+(X_U1.XU1.XU1.VIBN)    3.0000         (X_U1.XU1.XU1.VIBP)    3.0000             
+
+(X_U1.XU1.XU11.FP1)    3.0002         (X_U1.XU1.XU11.FP2)    2.9998             
+
+(X_U1.XU1.XU11.VCM)    3.0000         (X_U1.XU1.XU12.VNA)    0.0000             
+
+(X_U1.XU1.XU12.VNB)    0.0000         (X_U1.XU1.XU12.VXA)    6.0000             
+
+(X_U1.XU1.XU12.VXB)    6.0000         (X_U1.XU1.XU12.VYA)    0.0000             
+
+(X_U1.XU1.XU12.VYB)    0.0000         (X_U1.XU1.XU11.VIBN)    2.9998            
+
+(X_U1.XU1.XU11.VIBP)    3.0002        (X_U1.XU1.XU10.VBETA)  600.0000           
+
+(X_U1.XU1.XU10.VSDBX)    1.0000       (X_U1.XU1.XU10.VSSSX)    1.0000           
+
+(X_U1.XU1.XU12.X1.VA)    1.0000       (X_U1.XU1.XU12.X1.VB)    1.0000           
+
+(X_U1.XU1.XU12.X4.VA)    0.0000       (X_U1.XU1.XU12.X4.VB)    0.0000           
+
+(X_U1.XU1.XU12.X6.VA)    1.0000       (X_U1.XU1.XU12.X6.VB)    1.0000           
+
+(X_U1.XU1.XU12.X9.VA)    0.0000       (X_U1.XU1.XU12.X9.VB)    0.0000           
+
+(X_U1.XU1.XU12.X0.VIX)    6.0000      (X_U1.XU1.XU12.X0.VOX)    6.0000          
+
+(X_U1.XU1.XU12.X1.VCM)    3.0000      (X_U1.XU1.XU12.X2.VCM)    3.0000          
+
+(X_U1.XU1.XU12.X3.VIX)    0.0000      (X_U1.XU1.XU12.X3.VOX)    0.0000          
+
+(X_U1.XU1.XU12.X4.VCM)    3.0000      (X_U1.XU1.XU12.X5.VIX)    6.0000          
+
+(X_U1.XU1.XU12.X5.VOX)    6.0000      (X_U1.XU1.XU12.X6.VCM)    3.0000          
+
+(X_U1.XU1.XU12.X7.VCM)    3.0000      (X_U1.XU1.XU12.X8.VIX)    0.0000          
+
+(X_U1.XU1.XU12.X8.VOX)    0.0000      (X_U1.XU1.XU12.X9.VCM)    3.0000      
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+    V_V2        -2.399E-02
+    V_V3         0.000E+00
+    X_U1.V3      0.000E+00
+    X_U1.V1      0.000E+00
+    X_U1.XU7.VTR   0.000E+00
+    X_U1.XU1.XU4.VSEI   0.000E+00
+    X_U1.XU1.XU6.VSEI   0.000E+00
+
+    TOTAL POWER DISSIPATION   5.76E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 08/14/25 18:50:18 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-trans"  [ C:\Rafael\UFRJ\TCC\Simulations\LIB\TPA3111D1\tpa3111d1-pspicefiles\schematic1\trans.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =       13.67
+

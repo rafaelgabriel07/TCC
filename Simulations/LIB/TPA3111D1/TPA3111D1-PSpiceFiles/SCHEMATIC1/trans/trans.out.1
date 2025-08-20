@@ -1,0 +1,115 @@
+
+**** 08/14/25 18:33:22 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-trans"  [ C:\Rafael\UFRJ\TCC\Simulations\LIB\TPA3111D1\tpa3111d1-pspicefiles\schematic1\trans.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "trans.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../tpa3111d1.lib" 
+* From [PSPICE NETLIST] section of C:\Users\rafae\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 1m 0 1u 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TPA3111D1
+V_V1         N23144 0 5Vdc
+V_V2         N16233 0 24Vdc
+E_E1         N15960 0 N14773 0 0.5
+E_E2         0 N15013 N14773 0 0.5
+L_L1         N22789 N17635  33uH  
+C_C1         N15960 N15991  1u  
+V_V3         N14773 0  
++SIN 0 1 1k 0 0 0
+L_L2         N22838 N17110  33uH  
+C_C3         0 N17110  1u  
+C_C4         0 N17635  1u  
+R_R1         N17110 N17635  8  
+C_C2         N15013 N22889  1u  
+X_U1         0 0 N23144 N22889 N15991 N22789 N22838 N16233 N16233 0 TPA3111D1
+
+**** RESUMING trans.cir ****
+.END
+
+WARNING(ORPSIM-15223): Library file C:\Rafael\UFRJ\TCC\Simulations\LIB\TPA3111D1\tpa3111d1.lib has changed since index file tpa3111d1.ind was created.
+
+WARNING(ORPSIM-15227): The timestamp changed from Fri Jul 13 10:31:21 2012 to Thu Aug 14 18:29:48 2025.
+
+INFO(ORPSIM-15422): Making new index file tpa3111d1.ind for library file tpa3111d1.lib.
+
+Index has 16 entries from 1 file(s).
+
+ERROR -- EVALUATION VERSION analog Node Limit (75 Nodes) Exceeded!
+
+
+
+
+ABORTING SIMULATION
+**** 08/14/25 18:33:22 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-trans"  [ C:\Rafael\UFRJ\TCC\Simulations\LIB\TPA3111D1\tpa3111d1-pspicefiles\schematic1\trans.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+Node counts:
+  Top level (NUNODS)                =          12
+  External (NCNODS)                 =          91
+  Total (NUMNOD)                    =          91
+
+Total device count (NUMEL)          =         139
+  Capacitors (C)                    =          14
+  Diodes (D)                        =           4
+  VCVS (E)                          =          70
+  VCCS (G)                          =          12
+  Inductors (L)                     =           2
+  Resistors (R)                     =          23
+  TLines (T)                        =           4
+  Voltage Sources (V)               =           8
+
+Number of subcircuits (X)           =          27
+
+Analysis statistics:
+  No. total time points (NUMTTP)    =           0
+  No. rejected time points (NUMRTP) =           0
+  No. iterations (NUMNIT)           =           0
+
+Load Threads                        =           1
+
+Runtime statistics:                       Seconds      Iterations
+  Readin                            =         .28
+  General setup                     =        0.00
+  CMI setup                     =        0.00
+  Setup                             =        0.00
+  DC sweep                          =        0.00               0
+  Bias point                        =        0.00               0
+  AC and noise                      =        0.00               0
+  Total transient analysis          =        0.00
+  Output                            =        0.00
+  Overhead                          =        0.00
+  Total job time                    =         .28
+

@@ -1,0 +1,52 @@
+
+**** 08/14/25 18:44:46 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "TPA3112D1-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\TPA3112D1\Transient.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Transient.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1m 0 1u 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\TPA3112D1.net" 
+
+
+
+**** INCLUDING TPA3112D1.net ****
+* source TCC
+C_C2         N00496 N00500  1u  TC=0,0 
+C_C1         0 N00504  1u  TC=0,0 
+R_R1         N00778 N00749  8 TC=0,0 
+V_V1         N00496 0  AC 0
++SIN 0 1 1k 0 0 0
+X_U1         N00546 N00546 N00546 N00504 N00500 N00749 N00778 N00709 N00709 0
++  TPA3111D1
+V_V3         N00709 0 24
+V_V2         N00546 M_UN0001 5
+
+**** RESUMING Transient.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node N00546 is floating
+
+ERROR(ORPSIM-15142): Node M_UN0001 is floating
+

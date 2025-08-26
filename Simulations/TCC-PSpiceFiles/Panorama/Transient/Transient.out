@@ -1,0 +1,177 @@
+
+**** 08/26/25 19:51:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Panorama-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\Panorama\Transient.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Transient.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1m 0 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\Panorama.net" 
+
+
+
+**** INCLUDING Panorama.net ****
+* source TCC
+X_U1         0 N00271 +15 -15 N00288 TL072
+X_U2         0 N00312 +15 -15 N00300 TL072
+X_R1         N00332 0 N00346 POT PARAMS: SET=0 VALUE=5k
+R_R2         N00346 N00271  7.5k  
+R_R3         N00332 N00312  7.5k  
+R_R4         N00539 N00332  7.5k  
+R_R5         N00553 N00346  7.5k  
+R_R6         N00312 N00300  22k  
+R_R7         N00271 N00288  22k  
+V_V1         +15 0 15
+V_V2         0 -15 15
+V_V3         N00553 0  AC 0
++SIN 0 0.1 1k 0 0 0
+V_V4         N00539 0  AC 0
++SIN 0 0.1 1k 0 0 0
+
+**** RESUMING Transient.cir ****
+.END
+
+**** 08/26/25 19:51:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Panorama-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\Panorama\Transient.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.DX         X_U2.DX         
+          IS  800.000000E-18  800.000000E-18 
+
+
+**** 08/26/25 19:51:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Panorama-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\Panorama\Transient.sim ] 
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.JX         X_U2.JX         
+               PJF             PJF             
+         VTO   -1              -1            
+        BETA  270.100000E-06  270.100000E-06 
+          IS   15.000000E-12   15.000000E-12 
+
+
+**** 08/26/25 19:51:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Panorama-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\Panorama\Transient.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  +15)   15.0000  (  -15)  -15.0000  (N00271) 10.98E-06 (N00288) 44.16E-06     
+
+(N00300) 34.96E-06 (N00312) 10.98E-06 (N00332) 3.136E-06 (N00346) 1.463E-12     
+
+(N00539)    0.0000 (N00553)    0.0000 (X_U1.6)-6.318E-09 (X_U1.7) 44.39E-06     
+
+(X_U1.8) 44.39E-06 (X_U1.9)    0.0000 (X_U2.6)-4.997E-09 (X_U2.7) 35.13E-06     
+
+(X_U2.8) 35.13E-06 (X_U2.9)    0.0000 (X_U1.10)    -.3986                       
+
+(X_U1.11)  -14.6550                   (X_U1.12)  -14.6550                       
+
+(X_U1.53)   12.8000                   (X_U1.54)  -12.8000                       
+
+(X_U1.90) 1.509E-06                   (X_U1.91)   25.0000                       
+
+(X_U1.92)  -25.0000                   (X_U1.99)    0.0000                       
+
+(X_U2.10)    -.3986                   (X_U2.11)  -14.6550                       
+
+(X_U2.12)  -14.6550                   (X_U2.53)   12.8000                       
+
+(X_U2.54)  -12.8000                   (X_U2.90) 1.090E-06                       
+
+(X_U2.91)   25.0000                   (X_U2.92)  -25.0000                       
+
+(X_U2.99)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.839E-02
+    V_V2        -2.839E-02
+    V_V3         1.951E-16
+    V_V4         4.181E-10
+    X_U1.VB     -6.318E-14
+    X_U1.VC      1.280E-11
+    X_U1.VE      1.280E-11
+    X_U1.VLIM    1.509E-09
+    X_U1.VLP    -2.500E-11
+    X_U1.VLN    -2.500E-11
+    X_U2.VB     -4.997E-14
+    X_U2.VC      1.280E-11
+    X_U2.VE      1.280E-11
+    X_U2.VLIM    1.090E-09
+    X_U2.VLP    -2.500E-11
+    X_U2.VLN    -2.500E-11
+
+    TOTAL POWER DISSIPATION   8.52E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 08/26/25 19:51:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Panorama-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\Panorama\Transient.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .31
+

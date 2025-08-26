@@ -1,0 +1,17 @@
+.ALIASES
+X_U1            U1(+=0 -=N00271 V+=+15 V-=-15 OUT=N00288 ) CN @TCC.Panorama(sch_1):INS32@TL072.TL072.Normal(chips)
+X_U2            U2(+=0 -=N00312 V+=+15 V-=-15 OUT=N00300 ) CN @TCC.Panorama(sch_1):INS58@TL072.TL072.Normal(chips)
+X_R1            R1(1=N00332 T=0 2=N00346 ) CN @TCC.Panorama(sch_1):INS118@BREAKOUT.POT.Normal(chips)
+R_R2            R2(1=N00346 2=N00271 ) CN @TCC.Panorama(sch_1):INS153@ANALOG.R.Normal(chips)
+R_R3            R3(1=N00332 2=N00312 ) CN @TCC.Panorama(sch_1):INS169@ANALOG.R.Normal(chips)
+R_R4            R4(1=N00539 2=N00332 ) CN @TCC.Panorama(sch_1):INS194@ANALOG.R.Normal(chips)
+R_R5            R5(1=N00553 2=N00346 ) CN @TCC.Panorama(sch_1):INS210@ANALOG.R.Normal(chips)
+R_R6            R6(1=N00312 2=N00300 ) CN @TCC.Panorama(sch_1):INS239@ANALOG.R.Normal(chips)
+R_R7            R7(1=N00271 2=N00288 ) CN @TCC.Panorama(sch_1):INS255@ANALOG.R.Normal(chips)
+V_V1            V1(+=+15 -=0 ) CN @TCC.Panorama(sch_1):INS374@SOURCE.VDC.Normal(chips)
+V_V2            V2(+=0 -=-15 ) CN @TCC.Panorama(sch_1):INS390@SOURCE.VDC.Normal(chips)
+V_V3            V3(+=N00553 -=0 ) CN @TCC.Panorama(sch_1):INS421@SOURCE.VSIN.Normal(chips)
+V_V4            V4(+=N00539 -=0 ) CN @TCC.Panorama(sch_1):INS449@SOURCE.VSIN.Normal(chips)
+_    _(+15=+15)
+_    _(-15=-15)
+.ENDALIASES

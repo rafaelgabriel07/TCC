@@ -1,4 +1,4 @@
-** Profile: "Baxandall-ACSweep"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\Baxandall\ACSweep.sim ] 
+** Profile: "Baxandall-ACSweep"  [ C:\Rafael\UFRJ\TCC\Simulations\tcc-pspicefiles\baxandall\acsweep.sim ] 
 
 ** Creating circuit file "ACSweep.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
@@ -11,7 +11,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.AC DEC 1000 10 1Meg
+.AC DEC 1000 20 20k
 .OPTIONS ADVCONV
 .OPTIONS FILEMODELSEARCH
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 

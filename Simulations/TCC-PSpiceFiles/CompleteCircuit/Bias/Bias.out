@@ -1,0 +1,239 @@
+
+**** 09/03/25 09:16:56 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "CompleteCircuit-Bias"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\CompleteCircuit\Bias.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\CompleteCircuit.net" 
+
+
+
+**** INCLUDING CompleteCircuit.net ****
+* source TCC
+R_R5         N00863 N00837  30k TC=0,0 
+V_V1         N00701 0  AC 1
++SIN 0 1 1k 0 0 0
+C_C2         N00917 N00791  47n  TC=0,0 
+R_R3         0 N00791  10k TC=0,0 
+C_C1         N00791 N00701  0.22n  TC=0,0 
+R_R7         N00803 N00701  20k TC=0,0 
+R_R4         N00791 N00863  10k TC=0,0 
+R_R2         0 N00917  6.7k TC=0,0 
+R_R6         N00837 N00803  30k TC=0,0 
+X_R9         N02014 N02148 N02024 POT PARAMS: SET=0.5 VALUE=100k
+R_R13         N02274 N02130  3.9k  
+R_R10         N02024 N02130  12k  
+X_R15         N02552 N02472 N02558 POT PARAMS: SET=0.5 VALUE=500k
+R_R11         N02188 N02148  12k  
+C_C4         N02014 N02024  47n  
+C_C6         N02188 N02422  22n  
+C_C5         N02264 N02274  4.7n  
+X_U1         0 N02188 +15 -15 N02130 TL072
+C_C3         N02472 N02188  3.9n  
+X_R1         N02264 N02422 N02274 POT PARAMS: SET=0.5 VALUE=100k
+R_R14         N02104 N02552  1.8k  
+R_R16         N02558 N02130  1.8k  
+R_R8         N02104 N02014  12k  
+R_R12         N02104 N02264  3.9k  
+X_U3         0 N03512 +15 -15 N03444 TL072
+X_R20         N03372 0 N03224 POT PARAMS: SET=0 VALUE=5k
+R_R22         N03372 N03512  7.5k  
+X_U2         0 N03106 +15 -15 N03116 TL072
+R_R17         N03106 N03116  22k  
+R_R18         N02130 N03224  7.5k  
+R_R21         N02130 N03372  7.5k  
+R_R23         N03512 N03444  22k  
+R_R19         N03224 N03106  7.5k  
+V_V3         0 -15 15
+V_V2         +15 0 15
+X_U4         N00701 N02104 +15 -15 N02104 TL072
+
+**** RESUMING Bias.cir ****
+.END
+
+**** 09/03/25 09:16:56 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "CompleteCircuit-Bias"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\CompleteCircuit\Bias.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.DX         X_U3.DX         X_U2.DX         X_U4.DX         
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+
+
+**** 09/03/25 09:16:56 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "CompleteCircuit-Bias"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\CompleteCircuit\Bias.sim ] 
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.JX         X_U3.JX         X_U2.JX         X_U4.JX         
+               PJF             PJF             PJF             PJF             
+         VTO   -1              -1              -1              -1            
+        BETA  270.100000E-06  270.100000E-06  270.100000E-06  270.100000E-06 
+          IS   15.000000E-12   15.000000E-12   15.000000E-12   15.000000E-12 
+
+
+**** 09/03/25 09:16:56 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "CompleteCircuit-Bias"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\CompleteCircuit\Bias.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  +15)   15.0000  (  -15)  -15.0000  (N00701)    0.0000 (N00791)    0.0000     
+
+(N00803)    0.0000 (N00837)    0.0000 (N00863)    0.0000 (N00917)    0.0000     
+
+(N02014) 11.08E-06 (N02024) 14.20E-06 (N02104) 10.97E-06 (N02130) 14.85E-06     
+
+(N02148) 11.51E-06 (N02188) 10.97E-06 (N02264) 11.11E-06 (N02274) 14.71E-06     
+
+(N02422) 12.91E-06 (N02472) 12.91E-06 (N02552) 10.98E-06 (N02558) 14.83E-06     
+
+(N03106) 10.97E-06 (N03116) 44.14E-06 (N03224) 3.442E-12 (N03372) 7.376E-06     
+
+(N03444) 22.51E-06 (N03512) 10.97E-06 (X_U1.6)-2.233E-09 (X_U1.7) 15.31E-06     
+
+(X_U1.8) 15.31E-06 (X_U1.9)    0.0000 (X_U2.6)-6.315E-09 (X_U2.7) 44.37E-06     
+
+(X_U2.8) 44.37E-06 (X_U2.9)    0.0000 (X_U3.6)-3.209E-09 (X_U3.7) 22.58E-06     
+
+(X_U3.8) 22.58E-06 (X_U3.9)    0.0000 (X_U4.6)-1.553E-09 (X_U4.7) 10.97E-06     
+
+(X_U4.8) 10.97E-06 (X_U4.9)    0.0000 (X_U1.10)    -.3986                       
+
+(X_U1.11)  -14.6550                   (X_U1.12)  -14.6550                       
+
+(X_U1.53)   12.8000                   (X_U1.54)  -12.8000                       
+
+(X_U1.90) 3.073E-06                   (X_U1.91)   25.0000                       
+
+(X_U1.92)  -25.0000                   (X_U1.99)    0.0000                       
+
+(X_U2.10)    -.3986                   (X_U2.11)  -14.6550                       
+
+(X_U2.12)  -14.6550                   (X_U2.53)   12.8000                       
+
+(X_U2.54)  -12.8000                   (X_U2.90) 1.508E-06                       
+
+(X_U2.91)   25.0000                   (X_U2.92)  -25.0000                       
+
+(X_U2.99)    0.0000                   (X_U3.10)    -.3986                       
+
+(X_U3.11)  -14.6550                   (X_U3.12)  -14.6550                       
+
+(X_U3.53)   12.8000                   (X_U3.54)  -12.8000                       
+
+(X_U3.90) 524.3E-09                   (X_U3.91)   25.0000                       
+
+(X_U3.92)  -25.0000                   (X_U3.99)    0.0000                       
+
+(X_U4.10)    -.3986                   (X_U4.11)  -14.6550                       
+
+(X_U4.12)  -14.6550                   (X_U4.53)   12.8000                       
+
+(X_U4.54)  -12.8000                   (X_U4.90)-7.302E-09                       
+
+(X_U4.91)   25.0000                   (X_U4.92)  -25.0000                       
+
+(X_U4.99)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -4.505E-11
+    V_V3        -5.678E-02
+    V_V2        -5.678E-02
+    X_U1.VB     -2.233E-14
+    X_U1.VC      1.280E-11
+    X_U1.VE      1.280E-11
+    X_U1.VLIM    3.073E-09
+    X_U1.VLP    -2.500E-11
+    X_U1.VLN    -2.500E-11
+    X_U3.VB     -3.209E-14
+    X_U3.VC      1.280E-11
+    X_U3.VE      1.280E-11
+    X_U3.VLIM    5.243E-10
+    X_U3.VLP    -2.500E-11
+    X_U3.VLN    -2.500E-11
+    X_U2.VB     -6.315E-14
+    X_U2.VC      1.280E-11
+    X_U2.VE      1.280E-11
+    X_U2.VLIM    1.508E-09
+    X_U2.VLP    -2.500E-11
+    X_U2.VLN    -2.500E-11
+    X_U4.VB     -1.553E-14
+    X_U4.VC      1.280E-11
+    X_U4.VE      1.280E-11
+    X_U4.VLIM   -7.302E-12
+    X_U4.VLP    -2.500E-11
+    X_U4.VLN    -2.500E-11
+
+    TOTAL POWER DISSIPATION   1.70E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 09/03/25 09:16:56 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "CompleteCircuit-Bias"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\CompleteCircuit\Bias.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        2.13
+

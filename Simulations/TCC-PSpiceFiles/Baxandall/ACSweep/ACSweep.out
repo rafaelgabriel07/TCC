@@ -1,7 +1,7 @@
 
-**** 08/25/25 14:54:54 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 09/03/25 11:15:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "Baxandall-ACSweep"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\Baxandall\ACSweep.sim ] 
+ ** Profile: "Baxandall-ACSweep"  [ C:\Rafael\UFRJ\TCC\Simulations\tcc-pspicefiles\baxandall\acsweep.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -23,7 +23,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.AC DEC 1000 10 1Meg
+.AC DEC 1000 20 20k
 .OPTIONS ADVCONV
 .OPTIONS FILEMODELSEARCH
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
@@ -33,10 +33,10 @@
 
 **** INCLUDING Baxandall.net ****
 * source TCC
-X_U1         0 N00369 +12 -12 N00811 TL072
-V_V1         +12 0 12V
-V_V2         0 -12 12V
-X_R1         N00169 N00365 N00181 POT PARAMS: SET=0.5 VALUE=100k
+X_U1         0 N00369 +15 -15 N00811 TL072
+V_V1         +15 0 15V
+V_V2         0 -15 15V
+X_R1         N00169 N00365 N00181 POT PARAMS: SET=1 VALUE=100k
 C_C1         N00169 N00181  4.7n  
 R_R2         N00181 N00811  3.9k  
 R_R3         N00841 N00169  3.9k  
@@ -45,20 +45,35 @@ C_C3         N01558 N00369  3.9n
 X_R4         N01554 N01558 N01550 POT PARAMS: SET=1 VALUE=500k
 R_R5         N01550 N00811  1.8k  
 R_R6         N00841 N01554  1.8k  
-X_R8         N00611 N00697 N00619 POT PARAMS: SET=0.5 VALUE=100k
+X_R8         N00611 N00697 N00619 POT PARAMS: SET=1 VALUE=100k
 C_C4         N00611 N00619  47n  
 R_R7         N00841 N00611  12k  
 R_R9         N00619 N00811  12k  
 R_R10         N00369 N00697  12k  
 V_V3         N00841 0  AC 1
 +SIN 0 1 1k 0 0 0
+R_R20         N03346 N02868  3.9k  
+C_C8         N03260 N02926  3.9n  
+R_R14         N02926 N02886  12k  
+R_R18         N00841 N03340  3.9k  
+X_R12         N02752 N02886 N02762 POT PARAMS: SET=1 VALUE=100k
+X_R19         N03340 N03260 N03346 POT PARAMS: SET=1 VALUE=500k
+X_U2         0 N02926 +15 -15 N02868 TL072
+R_R13         N02762 N02868  12k  
+R_R11         N00841 N02752  12k  
+C_C5         N02752 N02762  100n  
+X_R22         N04181 N04295 N04191 POT PARAMS: SET=1 VALUE=100k
+C_C9         N04181 N04191  4.7n  
+R_R21         N00841 N04181  3.9k  
+R_R23         N04191 N02868  3.9k  
+C_C10         N02926 N04295  22n  
 
 **** RESUMING ACSweep.cir ****
 .END
 
-**** 08/25/25 14:54:54 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 09/03/25 11:15:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "Baxandall-ACSweep"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\Baxandall\ACSweep.sim ] 
+ ** Profile: "Baxandall-ACSweep"  [ C:\Rafael\UFRJ\TCC\Simulations\tcc-pspicefiles\baxandall\acsweep.sim ] 
 
 
  ****     Diode MODEL PARAMETERS
@@ -69,13 +84,13 @@ V_V3         N00841 0  AC 1
 
 
 
-               X_U1.DX         
-          IS  800.000000E-18 
+               X_U1.DX         X_U2.DX         
+          IS  800.000000E-18  800.000000E-18 
 
 
-**** 08/25/25 14:54:54 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 09/03/25 11:15:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "Baxandall-ACSweep"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\Baxandall\ACSweep.sim ] 
+ ** Profile: "Baxandall-ACSweep"  [ C:\Rafael\UFRJ\TCC\Simulations\tcc-pspicefiles\baxandall\acsweep.sim ] 
 
 
  ****     Junction FET MODEL PARAMETERS
@@ -86,16 +101,16 @@ V_V3         N00841 0  AC 1
 
 
 
-               X_U1.JX         
-               PJF             
-         VTO   -1            
-        BETA  270.100000E-06 
-          IS   15.000000E-12 
+               X_U1.JX         X_U2.JX         
+               PJF             PJF             
+         VTO   -1              -1            
+        BETA  270.100000E-06  270.100000E-06 
+          IS   15.000000E-12   15.000000E-12 
 
 
-**** 08/25/25 14:54:54 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 09/03/25 11:15:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "Baxandall-ACSweep"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\Baxandall\ACSweep.sim ] 
+ ** Profile: "Baxandall-ACSweep"  [ C:\Rafael\UFRJ\TCC\Simulations\tcc-pspicefiles\baxandall\acsweep.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -108,23 +123,39 @@ V_V3         N00841 0  AC 1
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(  +12)   12.0000  (  -12)  -12.0000  (N00169) 924.6E-09 (N00181) 24.63E-06     
+(  +15)   15.0000  (  -15)  -15.0000  (N00169) 4.488E-06 (N00181) 119.6E-06     
 
-(N00365) 12.78E-06 (N00369) 10.97E-06 (N00611) 2.221E-06 (N00619) 22.83E-06     
+(N00365) 4.488E-06 (N00369) 10.98E-06 (N00611) 11.52E-06 (N00619) 112.0E-06     
 
-(N00697) 11.48E-06 (N00811) 25.56E-06 (N00841)    0.0000 (N01550) 25.47E-06     
+(N00697) 11.52E-06 (N00811) 124.1E-06 (N00841)    0.0000 (N01550) 123.6E-06     
 
-(N01554) 91.35E-09 (N01558) 91.35E-09 (X_U1.6)-3.641E-09 (X_U1.7) 25.64E-06     
+(N01554) 443.4E-09 (N01558) 443.4E-09 (N02752) 11.52E-06 (N02762) 112.0E-06     
 
-(X_U1.8) 25.64E-06 (X_U1.9)    0.0000 (X_U1.10)    -.3986                       
+(N02868) 124.1E-06 (N02886) 11.52E-06 (N02926) 10.98E-06 (N03260) 952.8E-09     
 
-(X_U1.11)  -11.6550                   (X_U1.12)  -11.6550                       
+(N03340) 952.8E-09 (N03346) 123.1E-06 (N04181) 4.488E-06 (N04191) 119.6E-06     
 
-(X_U1.53)    9.8000                   (X_U1.54)   -9.8000                       
+(N04295) 4.488E-06 (X_U1.6)-17.67E-09 (X_U1.7) 124.4E-06 (X_U1.8) 124.4E-06     
 
-(X_U1.90) 515.0E-09                   (X_U1.91)   25.0000                       
+(X_U1.9)    0.0000 (X_U2.6)-17.67E-09 (X_U2.7) 124.4E-06 (X_U2.8) 124.4E-06     
 
-(X_U1.92)  -25.0000                   (X_U1.99)    0.0000                   
+(X_U2.9)    0.0000 (X_U1.10)    -.3986                   (X_U1.11)  -14.6550    
+
+(X_U1.12)  -14.6550                   (X_U1.53)   12.8000                       
+
+(X_U1.54)  -12.8000                   (X_U1.90) 2.402E-06                       
+
+(X_U1.91)   25.0000                   (X_U1.92)  -25.0000                       
+
+(X_U1.99)    0.0000                   (X_U2.10)    -.3986                       
+
+(X_U2.11)  -14.6550                   (X_U2.12)  -14.6550                       
+
+(X_U2.53)   12.8000                   (X_U2.54)  -12.8000                       
+
+(X_U2.90) 2.400E-06                   (X_U2.91)   25.0000                       
+
+(X_U2.92)  -25.0000                   (X_U2.99)    0.0000                   
 
 
 
@@ -132,25 +163,31 @@ V_V3         N00841 0  AC 1
     VOLTAGE SOURCE CURRENTS
     NAME         CURRENT
 
-    V_V1        -1.139E-02
-    V_V2        -1.139E-02
-    V_V3         4.729E-10
-    X_U1.VB     -3.641E-14
-    X_U1.VC      9.801E-12
-    X_U1.VE      9.801E-12
-    X_U1.VLIM    5.150E-10
+    V_V1        -2.839E-02
+    V_V2        -2.839E-02
+    V_V3         4.712E-09
+    X_U1.VB     -1.767E-13
+    X_U1.VC      1.280E-11
+    X_U1.VE      1.280E-11
+    X_U1.VLIM    2.402E-09
     X_U1.VLP    -2.500E-11
     X_U1.VLN    -2.500E-11
+    X_U2.VB     -1.767E-13
+    X_U2.VC      1.280E-11
+    X_U2.VE      1.280E-11
+    X_U2.VLIM    2.400E-09
+    X_U2.VLP    -2.500E-11
+    X_U2.VLN    -2.500E-11
 
-    TOTAL POWER DISSIPATION   2.73E-01  WATTS
+    TOTAL POWER DISSIPATION   8.52E-01  WATTS
 
 
 
           JOB CONCLUDED
 
-**** 08/25/25 14:54:54 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 09/03/25 11:15:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "Baxandall-ACSweep"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\Baxandall\ACSweep.sim ] 
+ ** Profile: "Baxandall-ACSweep"  [ C:\Rafael\UFRJ\TCC\Simulations\tcc-pspicefiles\baxandall\acsweep.sim ] 
 
 
  ****     JOB STATISTICS SUMMARY
@@ -160,5 +197,5 @@ V_V3         N00841 0  AC 1
 
 
 
-  Total job time (using Solver 1)   =         .39
+  Total job time (using Solver 1)   =         .38
 

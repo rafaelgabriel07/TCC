@@ -1,6 +1,6 @@
 (ExpressProject "TCC"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1-2024 S001-[08/26/25]")
+  (SoftwareVersion "23.1-2024 S001-[09/03/25]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library")
@@ -24,6 +24,8 @@
     (File ".\tcc-pspicefiles\baxandall\baxandall.net"
       (Type "Report"))
     (File ".\tcc-pspicefiles\panorama\panorama.net"
+      (Type "Report"))
+    (File ".\tcc-pspicefiles\completecircuit\completecircuit.net"
       (Type "Report")))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles"
@@ -39,11 +41,19 @@
          ".\tcc-pspicefiles\baxandall\acsweep.sim"
         (DisplayName "Baxandall-ACSweep")
         (Type "PSpice Profile"))
-      (ActiveProfile ".\tcc-pspicefiles\panorama\transient.sim")
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\tcc-pspicefiles\panorama\transient.sim"
         (DisplayName "Panorama-Transient")
-        (Type "PSpice Profile")))
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tcc-pspicefiles\completecircuit\bias.sim"
+        (DisplayName "CompleteCircuit-Bias")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tcc-pspicefiles\completecircuit\acsweep.sim"
+        (DisplayName "CompleteCircuit-ACSweep")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\tcc-pspicefiles\completecircuit\acsweep.sim"))
     (Folder "Model Libraries"
       (Sort User))
     (Folder "Stimulus Files"
@@ -53,6 +63,11 @@
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (Folder "Logs")
   (PartMRUSelector
+    (SUBPARAM
+      (FullPartName "SUBPARAM.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
+      (DeviceIndex "0"))
     (VCC_BAR
       (LibraryName "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -106,18 +121,20 @@
       (Path "Design Resources")
       (Path "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn")
       (Path "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn"
-         "Panorama")
+         "CompleteCircuit")
       (Path "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn"
          "Baxandall")
       (Path "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn"
          "LoudnessControl")
+      (Path "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn"
+         "Panorama")
       (Path "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn"
          "TPA3112D1")
       (Path "Outputs")
       (Path "PSpice Resources")
       (Path "PSpice Resources" "Simulation Profiles")
       (Select "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn"
-         "Panorama" "PAGE1"))
+         "CompleteCircuit" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -128,11 +145,11 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1393 24 839")
-        (Scroll "-159 -6")
-        (Zoom "107")
+        (Scroll "120 110")
+        (Zoom "100")
         (Occurrence "/"))
       (Path "C:\RAFAEL\UFRJ\TCC\SIMULATIONS\TCC.DSN")
-      (Schematic "Panorama")
+      (Schematic "CompleteCircuit")
       (Page "PAGE1")))
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\PSpiceTI\tools\capture\library\pspice"))

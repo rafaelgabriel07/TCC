@@ -1,6 +1,6 @@
 (ExpressProject "TCC"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1-2024 S001-[09/03/25]")
+  (SoftwareVersion "23.1-2024 S001-[09/28/25]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library")
@@ -53,7 +53,7 @@
          ".\tcc-pspicefiles\completecircuit\acsweep.sim"
         (DisplayName "CompleteCircuit-ACSweep")
         (Type "PSpice Profile"))
-      (ActiveProfile ".\tcc-pspicefiles\completecircuit\acsweep.sim"))
+      (ActiveProfile ".\tcc-pspicefiles\tpa3112d1\transient.sim"))
     (Folder "Model Libraries"
       (Sort User))
     (Folder "Stimulus Files"
@@ -121,20 +121,18 @@
       (Path "Design Resources")
       (Path "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn")
       (Path "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn"
-         "CompleteCircuit")
+         "TPA3112D1")
       (Path "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn"
          "Baxandall")
+      (Path "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn"
+         "CompleteCircuit")
       (Path "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn"
          "LoudnessControl")
       (Path "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn"
          "Panorama")
-      (Path "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn"
-         "TPA3112D1")
       (Path "Outputs")
       (Path "PSpice Resources")
-      (Path "PSpice Resources" "Simulation Profiles")
-      (Select "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn"
-         "CompleteCircuit" "PAGE1"))
+      (Path "PSpice Resources" "Simulation Profiles"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -144,12 +142,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1393 24 839")
-        (Scroll "120 110")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1268 24 839")
+        (Scroll "-96 -6")
+        (Zoom "107")
         (Occurrence "/"))
       (Path "C:\RAFAEL\UFRJ\TCC\SIMULATIONS\TCC.DSN")
-      (Schematic "CompleteCircuit")
+      (Schematic "TPA3112D1")
       (Page "PAGE1")))
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\PSpiceTI\tools\capture\library\pspice"))

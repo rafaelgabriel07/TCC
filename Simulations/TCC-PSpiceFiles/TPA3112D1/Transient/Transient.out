@@ -1,5 +1,5 @@
-
-**** 09/03/25 10:15:45 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+**** 09/28/25 15:00:13 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "TPA3112D1-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\tcc-pspicefiles\tpa3112d1\transient.sim ] 
 
@@ -49,7 +49,7 @@ L_L1         N23014 N23010  33uH
 **** RESUMING Transient.cir ****
 .END
 
-**** 09/03/25 10:15:45 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 09/28/25 15:00:13 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "TPA3112D1-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\tcc-pspicefiles\tpa3112d1\transient.sim ] 
 
@@ -67,7 +67,7 @@ L_L1         N23014 N23010  33uH
            N     .01         
 
 
-**** 09/03/25 10:15:45 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 09/28/25 15:00:13 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "TPA3112D1-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\tcc-pspicefiles\tpa3112d1\transient.sim ] 
 
@@ -189,7 +189,7 @@ Reducing minimum delta to make the circuit converge.
 
           JOB CONCLUDED
 
-**** 09/03/25 10:15:45 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 09/28/25 15:00:13 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "TPA3112D1-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\tcc-pspicefiles\tpa3112d1\transient.sim ] 
 
@@ -201,5 +201,5 @@ Reducing minimum delta to make the circuit converge.
 
 
 
-  Total job time (using Solver 1)   =       14.99
+  Total job time (using Solver 1)   =       18.61
 

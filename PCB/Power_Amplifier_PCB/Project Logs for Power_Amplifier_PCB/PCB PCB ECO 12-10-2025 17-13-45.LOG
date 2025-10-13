@@ -1,0 +1,3 @@
+Change Net Name : Old Net Name=NetC8_2 New Net Name=INPUT_N
+Change Net Name : Old Net Name=NetC9_2 New Net Name=INPUT_P
+Added Differential Pair: Name=INPUT

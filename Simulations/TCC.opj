@@ -132,7 +132,9 @@
          "Panorama")
       (Path "Outputs")
       (Path "PSpice Resources")
-      (Path "PSpice Resources" "Simulation Profiles"))
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn"
+         "TPA3112D1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")

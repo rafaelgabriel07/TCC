@@ -1,0 +1,10 @@
+Added Pin To Net: NetName=GAIN0_LEFT Pin=R7-2
+Added Pin To Net: NetName=GAIN0_LEFT Pin=SW2-1
+Added Pin To Net: NetName=GAIN0_LEFT Pin=U2-5
+Added Net: Name=GAIN0_LEFT
+Added Pin To Net: NetName=GAIN1_LEFT Pin=R6-2
+Added Pin To Net: NetName=GAIN1_LEFT Pin=SW2-4
+Added Pin To Net: NetName=GAIN1_LEFT Pin=U2-6
+Added Net: Name=GAIN1_LEFT
+Change Class Name : Old Net Name=Designator New Net Name=Amp1
+Added Class: Name=Amp2

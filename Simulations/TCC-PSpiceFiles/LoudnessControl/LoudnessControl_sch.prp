@@ -11,7 +11,7 @@
             ("level"	"0")
             ("model_params"
                 ("VALUE"
-                    ("value"	"0.22n")
+                    ("value"	"220p")
                     ("pspice_param"	"VALUE")
                 )
                 ("VC2"
@@ -137,7 +137,7 @@
             ("level"	"0")
             ("model_params"
                 ("VALUE"
-                    ("value"	"6.7k")
+                    ("value"	"6.8k")
                     ("pspice_param"	"VALUE")
                 )
                 ("BiasValue Power"
@@ -446,21 +446,21 @@
                     ("value"	"1")
                     ("pspice_param"	"AC")
                 )
-                ("VAMPL"
-                    ("value"	"1")
-                    ("pspice_param"	"VAMPL")
-                )
-                ("VOFF"
-                    ("value"	"0")
-                    ("pspice_param"	"VOFF")
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
                 )
                 ("FREQ"
                     ("value"	"1k")
                     ("pspice_param"	"FREQ")
                 )
-                ("BiasValue Power"
-                    ("value"	"0W")
-                    ("pspice_param"	"BiasValue Power")
+                ("VOFF"
+                    ("value"	"0")
+                    ("pspice_param"	"VOFF")
+                )
+                ("VAMPL"
+                    ("value"	"1")
+                    ("pspice_param"	"VAMPL")
                 )
                 ("PHASE"
                     ("value"	"0")

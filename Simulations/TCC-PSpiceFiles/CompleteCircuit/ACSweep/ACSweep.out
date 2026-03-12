@@ -1,7 +1,7 @@
 
-**** 09/03/25 11:18:49 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 03/09/26 21:28:07 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "CompleteCircuit-ACSweep"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\CompleteCircuit\ACSweep.sim ] 
+ ** Profile: "CompleteCircuit-ACSweep"  [ c:\rafael\ufrj\tcc\simulations\tcc-pspicefiles\completecircuit\acsweep.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -54,7 +54,7 @@ R_R23         N03512 N03444  22k
 R_R19         N03224 N03106  7.5k  
 V_V3         0 -15 15
 V_V2         +15 0 15
-X_U4         N00701 N04402 +15 -15 N04402 TL072
+X_U4         N00837 N04402 +15 -15 N04402 TL072
 C_C5         N05924 N05934  100n  
 R_R13         N05934 N03214  12k  
 X_R25         N06174 N06332 N06184 POT PARAMS: SET=0.5 VALUE=100k
@@ -74,9 +74,9 @@ C_C8         N06382 N06098  3.9n
 **** RESUMING ACSweep.cir ****
 .END
 
-**** 09/03/25 11:18:49 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 03/09/26 21:28:07 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "CompleteCircuit-ACSweep"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\CompleteCircuit\ACSweep.sim ] 
+ ** Profile: "CompleteCircuit-ACSweep"  [ c:\rafael\ufrj\tcc\simulations\tcc-pspicefiles\completecircuit\acsweep.sim ] 
 
 
  ****     Diode MODEL PARAMETERS
@@ -91,9 +91,9 @@ C_C8         N06382 N06098  3.9n
           IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
 
 
-**** 09/03/25 11:18:49 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 03/09/26 21:28:07 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "CompleteCircuit-ACSweep"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\CompleteCircuit\ACSweep.sim ] 
+ ** Profile: "CompleteCircuit-ACSweep"  [ c:\rafael\ufrj\tcc\simulations\tcc-pspicefiles\completecircuit\acsweep.sim ] 
 
 
  ****     Junction FET MODEL PARAMETERS
@@ -111,9 +111,9 @@ C_C8         N06382 N06098  3.9n
           IS   15.000000E-12   15.000000E-12   15.000000E-12   15.000000E-12 
 
 
-**** 09/03/25 11:18:49 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 03/09/26 21:28:07 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "CompleteCircuit-ACSweep"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\CompleteCircuit\ACSweep.sim ] 
+ ** Profile: "CompleteCircuit-ACSweep"  [ c:\rafael\ufrj\tcc\simulations\tcc-pspicefiles\completecircuit\acsweep.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -126,27 +126,27 @@ C_C8         N06382 N06098  3.9n
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(  +15)   15.0000  (  -15)  -15.0000  (N00701)    0.0000 (N00791)    0.0000     
+(  +15)   15.0000  (  -15)  -15.0000  (N00701)    0.0000 (N00791)-225.3E-09     
 
-(N00803)    0.0000 (N00837)    0.0000 (N00863)    0.0000 (N00917)    0.0000     
+(N00803)-450.5E-09 (N00837)-1.126E-06 (N00863)-450.5E-09 (N00917)    0.0000     
 
-(N03106) 10.97E-06 (N03116) 44.14E-06 (N03214) 14.85E-06 (N03224) 3.442E-12     
+(N03106) 10.97E-06 (N03116) 44.14E-06 (N03214) 15.97E-06 (N03224) 3.592E-12     
 
-(N03372) 7.376E-06 (N03444) 22.51E-06 (N03512) 10.97E-06 (N04402) 10.97E-06     
+(N03372) 7.698E-06 (N03444) 21.56E-06 (N03512) 10.97E-06 (N04402) 9.844E-06     
 
-(N05924) 11.08E-06 (N05934) 14.20E-06 (N06058) 11.51E-06 (N06098) 10.97E-06     
+(N05924) 10.17E-06 (N05934) 15.11E-06 (N06058) 11.51E-06 (N06098) 10.97E-06     
 
-(N06174) 11.11E-06 (N06184) 14.71E-06 (N06332) 12.91E-06 (N06382) 12.91E-06     
+(N06174) 10.07E-06 (N06184) 15.75E-06 (N06332) 12.91E-06 (N06382) 12.91E-06     
 
-(N06462) 11.00E-06 (N06468) 14.82E-06 (X_U2.6)-6.315E-09 (X_U2.7) 44.37E-06     
+(N06462) 9.891E-06 (N06468) 15.92E-06 (X_U2.6)-6.315E-09 (X_U2.7) 44.37E-06     
 
-(X_U2.8) 44.37E-06 (X_U2.9)    0.0000 (X_U3.6)-3.209E-09 (X_U3.7) 22.58E-06     
+(X_U2.8) 44.37E-06 (X_U2.9)    0.0000 (X_U3.6)-3.074E-09 (X_U3.7) 21.63E-06     
 
-(X_U3.8) 22.58E-06 (X_U3.9)    0.0000 (X_U4.6)-1.553E-09 (X_U4.7) 10.97E-06     
+(X_U3.8) 21.63E-06 (X_U3.9)    0.0000 (X_U4.6)-1.392E-09 (X_U4.7) 9.837E-06     
 
-(X_U4.8) 10.97E-06 (X_U4.9)    0.0000 (X_U5.6)-2.233E-09 (X_U5.7) 15.31E-06     
+(X_U4.8) 9.837E-06 (X_U4.9)    0.0000 (X_U5.6)-2.405E-09 (X_U5.7) 16.48E-06     
 
-(X_U5.8) 15.31E-06 (X_U5.9)    0.0000 (X_U2.10)    -.3986                       
+(X_U5.8) 16.48E-06 (X_U5.9)    0.0000 (X_U2.10)    -.3986                       
 
 (X_U2.11)  -14.6550                   (X_U2.12)  -14.6550                       
 
@@ -160,7 +160,7 @@ C_C8         N06382 N06098  3.9n
 
 (X_U3.12)  -14.6550                   (X_U3.53)   12.8000                       
 
-(X_U3.54)  -12.8000                   (X_U3.90) 524.3E-09                       
+(X_U3.54)  -12.8000                   (X_U3.90) 481.4E-09                       
 
 (X_U3.91)   25.0000                   (X_U3.92)  -25.0000                       
 
@@ -170,7 +170,7 @@ C_C8         N06382 N06098  3.9n
 
 (X_U4.53)   12.8000                   (X_U4.54)  -12.8000                       
 
-(X_U4.90)-7.238E-09                   (X_U4.91)   25.0000                       
+(X_U4.90)-50.74E-09                   (X_U4.91)   25.0000                       
 
 (X_U4.92)  -25.0000                   (X_U4.99)    0.0000                       
 
@@ -178,7 +178,7 @@ C_C8         N06382 N06098  3.9n
 
 (X_U5.12)  -14.6550                   (X_U5.53)   12.8000                       
 
-(X_U5.54)  -12.8000                   (X_U5.90) 3.073E-06                       
+(X_U5.54)  -12.8000                   (X_U5.90) 3.374E-06                       
 
 (X_U5.91)   25.0000                   (X_U5.92)  -25.0000                       
 
@@ -190,13 +190,13 @@ C_C8         N06382 N06098  3.9n
     VOLTAGE SOURCE CURRENTS
     NAME         CURRENT
 
-    V_V1        -4.505E-11
+    V_V1        -2.253E-11
     V_V3        -5.678E-02
     V_V2        -5.678E-02
-    X_U3.VB     -3.209E-14
+    X_U3.VB     -3.074E-14
     X_U3.VC      1.280E-11
     X_U3.VE      1.280E-11
-    X_U3.VLIM    5.243E-10
+    X_U3.VLIM    4.814E-10
     X_U3.VLP    -2.500E-11
     X_U3.VLN    -2.500E-11
     X_U2.VB     -6.315E-14
@@ -205,16 +205,16 @@ C_C8         N06382 N06098  3.9n
     X_U2.VLIM    1.508E-09
     X_U2.VLP    -2.500E-11
     X_U2.VLN    -2.500E-11
-    X_U4.VB     -1.553E-14
+    X_U4.VB     -1.392E-14
     X_U4.VC      1.280E-11
     X_U4.VE      1.280E-11
-    X_U4.VLIM   -7.238E-12
+    X_U4.VLIM   -5.074E-11
     X_U4.VLP    -2.500E-11
     X_U4.VLN    -2.500E-11
-    X_U5.VB     -2.233E-14
+    X_U5.VB     -2.405E-14
     X_U5.VC      1.280E-11
     X_U5.VE      1.280E-11
-    X_U5.VLIM    3.073E-09
+    X_U5.VLIM    3.374E-09
     X_U5.VLP    -2.500E-11
     X_U5.VLN    -2.500E-11
 
@@ -224,9 +224,9 @@ C_C8         N06382 N06098  3.9n
 
           JOB CONCLUDED
 
-**** 09/03/25 11:18:49 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 03/09/26 21:28:07 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "CompleteCircuit-ACSweep"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\CompleteCircuit\ACSweep.sim ] 
+ ** Profile: "CompleteCircuit-ACSweep"  [ c:\rafael\ufrj\tcc\simulations\tcc-pspicefiles\completecircuit\acsweep.sim ] 
 
 
  ****     JOB STATISTICS SUMMARY
@@ -236,5 +236,5 @@ C_C8         N06382 N06098  3.9n
 
 
 
-  Total job time (using Solver 1)   =         .44
+  Total job time (using Solver 1)   =         .45
 

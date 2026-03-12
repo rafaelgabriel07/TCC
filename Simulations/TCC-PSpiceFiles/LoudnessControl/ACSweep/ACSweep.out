@@ -1,5 +1,5 @@
 
-**** 08/20/25 18:21:07 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 03/12/26 18:29:19 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "LoudnessControl-ACSweep"  [ C:\Rafael\UFRJ\TCC\Simulations\tcc-pspicefiles\loudnesscontrol\acsweep.sim ] 
 
@@ -33,9 +33,9 @@
 
 **** INCLUDING LoudnessControl.net ****
 * source TCC
-C_C1         N00243 N00268  0.22n  TC=0,0 
+C_C1         N00243 N00268  220p  TC=0,0 
 C_C2         N00321 N00243  47n  TC=0,0 
-R_R2         0 N00321  6.7k TC=0,0 
+R_R2         0 N00321  6.8k TC=0,0 
 R_R3         0 N00243  10k TC=0,0 
 R_R4         N00243 N00256  10k TC=0,0 
 R_R5         N00256 N00260  30k TC=0,0 
@@ -47,7 +47,7 @@ V_V1         N00268 0  AC 1
 **** RESUMING ACSweep.cir ****
 .END
 
-**** 08/20/25 18:21:07 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 03/12/26 18:29:19 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "LoudnessControl-ACSweep"  [ C:\Rafael\UFRJ\TCC\Simulations\tcc-pspicefiles\loudnesscontrol\acsweep.sim ] 
 
@@ -80,7 +80,7 @@ V_V1         N00268 0  AC 1
 
           JOB CONCLUDED
 
-**** 08/20/25 18:21:07 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 03/12/26 18:29:19 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "LoudnessControl-ACSweep"  [ C:\Rafael\UFRJ\TCC\Simulations\tcc-pspicefiles\loudnesscontrol\acsweep.sim ] 
 
@@ -92,5 +92,5 @@ V_V1         N00268 0  AC 1
 
 
 
-  Total job time (using Solver 1)   =         .33
+  Total job time (using Solver 1)   =         .34
 

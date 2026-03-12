@@ -1,6 +1,6 @@
 (ExpressProject "TCC"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1-2024 S001-[09/28/25]")
+  (SoftwareVersion "23.1-2024 S001-[03/09/26]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library")
@@ -53,7 +53,7 @@
          ".\tcc-pspicefiles\completecircuit\acsweep.sim"
         (DisplayName "CompleteCircuit-ACSweep")
         (Type "PSpice Profile"))
-      (ActiveProfile ".\tcc-pspicefiles\tpa3112d1\transient.sim"))
+      (ActiveProfile ".\tcc-pspicefiles\loudnesscontrol\acsweep.sim"))
     (Folder "Model Libraries"
       (Sort User))
     (Folder "Stimulus Files"
@@ -119,22 +119,16 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn")
-      (Path "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn"
-         "TPA3112D1")
-      (Path "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn"
-         "Baxandall")
-      (Path "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn"
-         "CompleteCircuit")
-      (Path "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn"
+      (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn")
+      (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
          "LoudnessControl")
-      (Path "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn"
-         "Panorama")
+      (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
+         "CompleteCircuit")
       (Path "Outputs")
       (Path "PSpice Resources")
       (Path "PSpice Resources" "Simulation Profiles")
-      (Select "Design Resources" "C:\Rafael\UFRJ\TCC\Simulations\tcc.dsn"
-         "TPA3112D1" "PAGE1"))
+      (Select "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
+         "LoudnessControl" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -149,7 +143,7 @@
         (Zoom "107")
         (Occurrence "/"))
       (Path "C:\RAFAEL\UFRJ\TCC\SIMULATIONS\TCC.DSN")
-      (Schematic "TPA3112D1")
+      (Schematic "LoudnessControl")
       (Page "PAGE1")))
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\PSpiceTI\tools\capture\library\pspice"))

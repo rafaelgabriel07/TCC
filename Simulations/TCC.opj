@@ -1,6 +1,6 @@
 (ExpressProject "TCC"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1-2024 S001-[03/09/26]")
+  (SoftwareVersion "23.1-2024 S001-[03/12/26]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library")
@@ -119,16 +119,10 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn")
-      (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
-         "LoudnessControl")
-      (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
-         "CompleteCircuit")
       (Path "Outputs")
       (Path "PSpice Resources")
       (Path "PSpice Resources" "Simulation Profiles")
-      (Select "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
-         "LoudnessControl" "PAGE1"))
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")

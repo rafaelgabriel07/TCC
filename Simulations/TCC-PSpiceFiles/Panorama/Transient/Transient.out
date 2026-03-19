@@ -1,7 +1,7 @@
-
-**** 08/26/25 19:51:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "Panorama-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\Panorama\Transient.sim ] 
+**** 03/19/26 18:02:10 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Panorama-Transient"  [ c:\rafael\ufrj\tcc\simulations\tcc-pspicefiles\panorama\transient.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -35,7 +35,7 @@
 * source TCC
 X_U1         0 N00271 +15 -15 N00288 TL072
 X_U2         0 N00312 +15 -15 N00300 TL072
-X_R1         N00332 0 N00346 POT PARAMS: SET=0 VALUE=5k
+X_R1         N00332 0 N00346 POT PARAMS: SET=0.5 VALUE=5k
 R_R2         N00346 N00271  7.5k  
 R_R3         N00332 N00312  7.5k  
 R_R4         N00539 N00332  7.5k  
@@ -51,10 +51,38 @@ V_V4         N00539 0  AC 0
 
 **** RESUMING Transient.cir ****
 .END
-
-**** 08/26/25 19:51:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "Panorama-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\Panorama\Transient.sim ] 
+WARNING(ORPSIM-15223): Library file C:\cds_spb_home\cdssetup\pspTILibDir\nom_pspti.lib has changed since index file nom_pspti.ind was created.
+
+WARNING(ORPSIM-15227): The timestamp changed from Mon Aug 25 14:31:52 2025 to Thu Mar 19 17:04:06 2026.
+
+INFO(ORPSIM-15422): Making new index file nom_pspti.ind for library file nom_pspti.lib.
+b2e4e117ac3ae9d81b0a9590344b9f0be3a13d734fc0d5d3bc0ae1622ce0f1f9be7002c9257815a723e6968b7ce9d1912158f221a9c6c7f774db6896643a33b0
+$CDNENCFINISH_ADV2
+.ENDS
+*$
+.SUBCKT VC_RES1_68k     1 2     4 5
+$CDNENCSTART_ADV2
+17f62b1fb318c25603aeb85644ae98a5d179ef807807791f6459efacb9d7ffc37a831b146dc0f06bb1ef275619162e6d8f7ad0dc708bf15ae1a1d5bd0ae623b2
+4338d7c6b789b936510049641c41694601a828b94bca95e37d9595892e84fe4adde61b3186a8a4ced614ffd7534112da752ebe196261f5fadbdc1df943f8b053
+b2e4e117ac3ae9d81b0a9590344b9f0be3a13d734fc0d5d3bc0ae1622ce0f1f9be7002c9257815a723e6968b7ce9d1912158f221a9c6c7f774db6896643a33b0
+$CDNENCFINISH_ADV2
+.ENDS
+*$
+.model Mbreakp PMOS_SIMPLE 
+$CDNENCSTART_ADV2
+17f62b1fb318c25603aeb85644ae98a5d179ef807807791f6459efacb9d7ffc37a831b146dc0f06bb1ef275619162e6d8f7ad0dc708bf15ae1a1d5bd0ae623b2
+d0a62a7eecff332c2c1a7f28e691e8355b0d507d4d4167bdded4599b6b3f07ed49ca0bf013e9ee48384f4a7c200902eb9bd5e11d04cca5bd57a5eb5ba1dfe8a6
+$CDNENCFINISH_ADV2
+*$
+
+WARNING(ORPSIM-15195): Model type unknown
+
+Index has 126048 entries from 5553 file(s).
+
+**** 03/19/26 18:02:10 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Panorama-Transient"  [ c:\rafael\ufrj\tcc\simulations\tcc-pspicefiles\panorama\transient.sim ] 
 
 
  ****     Diode MODEL PARAMETERS
@@ -69,9 +97,9 @@ V_V4         N00539 0  AC 0
           IS  800.000000E-18  800.000000E-18 
 
 
-**** 08/26/25 19:51:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 03/19/26 18:02:10 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "Panorama-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\Panorama\Transient.sim ] 
+ ** Profile: "Panorama-Transient"  [ c:\rafael\ufrj\tcc\simulations\tcc-pspicefiles\panorama\transient.sim ] 
 
 
  ****     Junction FET MODEL PARAMETERS
@@ -89,9 +117,9 @@ V_V4         N00539 0  AC 0
           IS   15.000000E-12   15.000000E-12 
 
 
-**** 08/26/25 19:51:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 03/19/26 18:02:10 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "Panorama-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\Panorama\Transient.sim ] 
+ ** Profile: "Panorama-Transient"  [ c:\rafael\ufrj\tcc\simulations\tcc-pspicefiles\panorama\transient.sim ] 
 
 
  ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -104,21 +132,21 @@ V_V4         N00539 0  AC 0
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(  +15)   15.0000  (  -15)  -15.0000  (N00271) 10.98E-06 (N00288) 44.16E-06     
+(  +15)   15.0000  (  -15)  -15.0000  (N00271) 10.98E-06 (N00288) 37.72E-06     
 
-(N00300) 34.96E-06 (N00312) 10.98E-06 (N00332) 3.136E-06 (N00346) 1.463E-12     
+(N00300) 37.72E-06 (N00312) 10.98E-06 (N00332) 2.195E-06 (N00346) 2.195E-06     
 
-(N00539)    0.0000 (N00553)    0.0000 (X_U1.6)-6.318E-09 (X_U1.7) 44.39E-06     
+(N00539)    0.0000 (N00553)    0.0000 (X_U1.6)-5.394E-09 (X_U1.7) 37.91E-06     
 
-(X_U1.8) 44.39E-06 (X_U1.9)    0.0000 (X_U2.6)-4.997E-09 (X_U2.7) 35.13E-06     
+(X_U1.8) 37.91E-06 (X_U1.9)    0.0000 (X_U2.6)-5.394E-09 (X_U2.7) 37.91E-06     
 
-(X_U2.8) 35.13E-06 (X_U2.9)    0.0000 (X_U1.10)    -.3986                       
+(X_U2.8) 37.91E-06 (X_U2.9)    0.0000 (X_U1.10)    -.3986                       
 
 (X_U1.11)  -14.6550                   (X_U1.12)  -14.6550                       
 
 (X_U1.53)   12.8000                   (X_U1.54)  -12.8000                       
 
-(X_U1.90) 1.509E-06                   (X_U1.91)   25.0000                       
+(X_U1.90) 1.216E-06                   (X_U1.91)   25.0000                       
 
 (X_U1.92)  -25.0000                   (X_U1.99)    0.0000                       
 
@@ -126,7 +154,7 @@ V_V4         N00539 0  AC 0
 
 (X_U2.12)  -14.6550                   (X_U2.53)   12.8000                       
 
-(X_U2.54)  -12.8000                   (X_U2.90) 1.090E-06                       
+(X_U2.54)  -12.8000                   (X_U2.90) 1.216E-06                       
 
 (X_U2.91)   25.0000                   (X_U2.92)  -25.0000                       
 
@@ -140,18 +168,18 @@ V_V4         N00539 0  AC 0
 
     V_V1        -2.839E-02
     V_V2        -2.839E-02
-    V_V3         1.951E-16
-    V_V4         4.181E-10
-    X_U1.VB     -6.318E-14
+    V_V3         2.927E-10
+    V_V4         2.927E-10
+    X_U1.VB     -5.394E-14
     X_U1.VC      1.280E-11
     X_U1.VE      1.280E-11
-    X_U1.VLIM    1.509E-09
+    X_U1.VLIM    1.216E-09
     X_U1.VLP    -2.500E-11
     X_U1.VLN    -2.500E-11
-    X_U2.VB     -4.997E-14
+    X_U2.VB     -5.394E-14
     X_U2.VC      1.280E-11
     X_U2.VE      1.280E-11
-    X_U2.VLIM    1.090E-09
+    X_U2.VLIM    1.216E-09
     X_U2.VLP    -2.500E-11
     X_U2.VLN    -2.500E-11
 
@@ -161,9 +189,9 @@ V_V4         N00539 0  AC 0
 
           JOB CONCLUDED
 
-**** 08/26/25 19:51:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 03/19/26 18:02:10 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "Panorama-Transient"  [ C:\Rafael\UFRJ\TCC\Simulations\TCC-PSpiceFiles\Panorama\Transient.sim ] 
+ ** Profile: "Panorama-Transient"  [ c:\rafael\ufrj\tcc\simulations\tcc-pspicefiles\panorama\transient.sim ] 
 
 
  ****     JOB STATISTICS SUMMARY
@@ -173,5 +201,5 @@ V_V4         N00539 0  AC 0
 
 
 
-  Total job time (using Solver 1)   =         .31
+  Total job time (using Solver 1)   =       37.53
 

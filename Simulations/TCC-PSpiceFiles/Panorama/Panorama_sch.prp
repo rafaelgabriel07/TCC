@@ -12,17 +12,17 @@
             ("pspice_path"	"X_U1")
             ("level"	"0")
             ("model_params"
-                ("BiasValue Power"
-                    ("value"	"425.8mW")
-                    ("pspice_param"	"BiasValue Power")
+                ("Testbenches"
+                    ("value"	"[{testbenchurl:,testbenchopj:,testbenchdisplayname:}]")
+                    ("pspice_param"	"Testbenches")
                 )
                 ("productURL"
                     ("value"	"http://www.ti.com/document-viewer/TL072/datasheet/")
                     ("pspice_param"	"productURL")
                 )
-                ("Testbenches"
-                    ("value"	"[{testbenchurl:,testbenchopj:,testbenchdisplayname:}]")
-                    ("pspice_param"	"Testbenches")
+                ("BiasValue Power"
+                    ("value"	"425.8mW")
+                    ("pspice_param"	"BiasValue Power")
                 )
             )
         )
@@ -31,17 +31,17 @@
             ("pspice_path"	"X_U2")
             ("level"	"0")
             ("model_params"
-                ("BiasValue Power"
-                    ("value"	"425.8mW")
-                    ("pspice_param"	"BiasValue Power")
+                ("Testbenches"
+                    ("value"	"[{testbenchurl:,testbenchopj:,testbenchdisplayname:}]")
+                    ("pspice_param"	"Testbenches")
                 )
                 ("productURL"
                     ("value"	"http://www.ti.com/document-viewer/TL072/datasheet/")
                     ("pspice_param"	"productURL")
                 )
-                ("Testbenches"
-                    ("value"	"[{testbenchurl:,testbenchopj:,testbenchdisplayname:}]")
-                    ("pspice_param"	"Testbenches")
+                ("BiasValue Power"
+                    ("value"	"425.8mW")
+                    ("pspice_param"	"BiasValue Power")
                 )
             )
         )
@@ -51,7 +51,7 @@
             ("level"	"0")
             ("model_params"
                 ("SET"
-                    ("value"	"0")
+                    ("value"	"0.5")
                     ("pspice_param"	"SET")
                 )
                 ("VALUE"
@@ -59,7 +59,7 @@
                     ("pspice_param"	"VALUE")
                 )
                 ("BiasValue Power"
-                    ("value"	"3.645fW")
+                    ("value"	"1.967fW")
                     ("pspice_param"	"BiasValue Power")
                 )
             )
@@ -74,7 +74,7 @@
                     ("pspice_param"	"VALUE")
                 )
                 ("BiasValue Power"
-                    ("value"	"11.80fW")
+                    ("value"	"16.06fW")
                     ("pspice_param"	"BiasValue Power")
                 )
                 ("DIST"
@@ -113,7 +113,7 @@
                     ("pspice_param"	"VALUE")
                 )
                 ("BiasValue Power"
-                    ("value"	"9.244fW")
+                    ("value"	"8.195fW")
                     ("pspice_param"	"BiasValue Power")
                 )
                 ("DIST"
@@ -152,7 +152,7 @@
                     ("pspice_param"	"VALUE")
                 )
                 ("BiasValue Power"
-                    ("value"	"935.9e-18W")
+                    ("value"	"1.311fW")
                     ("pspice_param"	"BiasValue Power")
                 )
                 ("DIST"
@@ -191,7 +191,7 @@
                     ("pspice_param"	"VALUE")
                 )
                 ("BiasValue Power"
-                    ("value"	"327.8e-18W")
+                    ("value"	"285.6e-30W")
                     ("pspice_param"	"BiasValue Power")
                 )
                 ("DIST"
@@ -230,7 +230,7 @@
                     ("pspice_param"	"VALUE")
                 )
                 ("BiasValue Power"
-                    ("value"	"29.36fW")
+                    ("value"	"26.16fW")
                     ("pspice_param"	"BiasValue Power")
                 )
                 ("DIST"
@@ -269,7 +269,7 @@
                     ("pspice_param"	"VALUE")
                 )
                 ("BiasValue Power"
-                    ("value"	"37.15fW")
+                    ("value"	"50.07fW")
                     ("pspice_param"	"BiasValue Power")
                 )
                 ("DIST"
@@ -345,21 +345,21 @@
                     ("value"	"0")
                     ("pspice_param"	"AC")
                 )
-                ("BiasValue Power"
-                    ("value"	"0W")
-                    ("pspice_param"	"BiasValue Power")
-                )
-                ("FREQ"
-                    ("value"	"1k")
-                    ("pspice_param"	"FREQ")
+                ("VOFF"
+                    ("value"	"0")
+                    ("pspice_param"	"VOFF")
                 )
                 ("VAMPL"
                     ("value"	"0.1")
                     ("pspice_param"	"VAMPL")
                 )
-                ("VOFF"
-                    ("value"	"0")
-                    ("pspice_param"	"VOFF")
+                ("FREQ"
+                    ("value"	"1k")
+                    ("pspice_param"	"FREQ")
+                )
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
                 )
                 ("PHASE"
                     ("value"	"0")
@@ -392,21 +392,21 @@
                     ("value"	"0")
                     ("pspice_param"	"AC")
                 )
-                ("BiasValue Power"
-                    ("value"	"0W")
-                    ("pspice_param"	"BiasValue Power")
-                )
-                ("VAMPL"
-                    ("value"	"0.1")
-                    ("pspice_param"	"VAMPL")
+                ("FREQ"
+                    ("value"	"1k")
+                    ("pspice_param"	"FREQ")
                 )
                 ("VOFF"
                     ("value"	"0")
                     ("pspice_param"	"VOFF")
                 )
-                ("FREQ"
-                    ("value"	"1k")
-                    ("pspice_param"	"FREQ")
+                ("VAMPL"
+                    ("value"	"0.1")
+                    ("pspice_param"	"VAMPL")
+                )
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
                 )
                 ("PHASE"
                     ("value"	"0")

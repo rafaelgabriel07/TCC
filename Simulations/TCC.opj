@@ -1,6 +1,6 @@
 (ExpressProject "TCC"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1-2024 S001-[03/12/26]")
+  (SoftwareVersion "23.1-2024 S001-[03/17/26]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library")
@@ -53,7 +53,7 @@
          ".\tcc-pspicefiles\completecircuit\acsweep.sim"
         (DisplayName "CompleteCircuit-ACSweep")
         (Type "PSpice Profile"))
-      (ActiveProfile ".\tcc-pspicefiles\loudnesscontrol\acsweep.sim"))
+      (ActiveProfile ".\tcc-pspicefiles\baxandall\acsweep.sim"))
     (Folder "Model Libraries"
       (Sort User))
     (Folder "Stimulus Files"
@@ -119,10 +119,13 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn")
+      (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
+         "Baxandall")
       (Path "Outputs")
       (Path "PSpice Resources")
       (Path "PSpice Resources" "Simulation Profiles")
-      (Select "Design Resources"))
+      (Select "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -133,11 +136,11 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1268 24 839")
-        (Scroll "-96 -6")
-        (Zoom "107")
+        (Scroll "990 197")
+        (Zoom "160")
         (Occurrence "/"))
       (Path "C:\RAFAEL\UFRJ\TCC\SIMULATIONS\TCC.DSN")
-      (Schematic "LoudnessControl")
+      (Schematic "Baxandall")
       (Page "PAGE1")))
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\PSpiceTI\tools\capture\library\pspice"))

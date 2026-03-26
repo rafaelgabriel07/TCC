@@ -19,7 +19,7 @@ R_R23           R23(1=N03512 2=N03444 ) CN @TCC.CompleteCircuit(sch_1):INS3584@A
 R_R19           R19(1=N03224 2=N03106 ) CN @TCC.CompleteCircuit(sch_1):INS3158@ANALOG.R.Normal(chips)
 V_V3            V3(+=0 -=-15 ) CN @TCC.CompleteCircuit(sch_1):INS3981@SOURCE.VDC.Normal(chips)
 V_V2            V2(+=+15 -=0 ) CN @TCC.CompleteCircuit(sch_1):INS3939@SOURCE.VDC.Normal(chips)
-X_U4            U4(+=N00837 -=N04402 V+=+15 V-=-15 OUT=N04402 ) CN @TCC.CompleteCircuit(sch_1):INS4140@TL072.TL072.Normal(chips)
+X_U4            U4(+=N00701 -=N04402 V+=+15 V-=-15 OUT=N04402 ) CN @TCC.CompleteCircuit(sch_1):INS4140@TL072.TL072.Normal(chips)
 C_C5            C5(1=N05924 2=N05934 ) CN @TCC.CompleteCircuit(sch_1):INS5906@ANALOG.C.Normal(chips)
 R_R13           R13(1=N05934 2=N03214 ) CN @TCC.CompleteCircuit(sch_1):INS5992@ANALOG.R.Normal(chips)
 X_R25           R25(1=N06174 T=N06332 2=N06184 ) CN @TCC.CompleteCircuit(sch_1):INS6244@BREAKOUT.POT.Normal(chips)

@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=NetOPAMP3_1 Pin=OPAMP3-1
+Removed Pin From Net: NetName=NetOPAMP3_1 Pin=OPAMP3-2
+Removed Pin From Net: NetName=NetOPAMP3_6 Pin=OPAMP3-6
+Removed Pin From Net: NetName=NetOPAMP3_6 Pin=OPAMP3-7
+Removed Pin From Net: NetName=Baxandall_Left_Output Pin=R26-1
+Removed Pin From Net: NetName=Baxandall_Right_Output Pin=R29-1
+Added Pin To Net: NetName=NetOPAMP3_6 Pin=OPAMP3-1
+Added Pin To Net: NetName=NetOPAMP3_6 Pin=OPAMP3-2
+Added Pin To Net: NetName=NetOPAMP3_1 Pin=OPAMP3-6
+Added Pin To Net: NetName=NetOPAMP3_1 Pin=OPAMP3-7
+Added Pin To Net: NetName=Baxandall_Right_Output Pin=R26-1
+Added Pin To Net: NetName=Baxandall_Left_Output Pin=R29-1
+Change Net Name : Old Net Name=Baxandall_Left_Output New Net Name=Baxandall_Right_Output
+Change Net Name : Old Net Name=Baxandall_Right_Output New Net Name=Baxandall_Left_Output
+Change Net Name : Old Net Name=Negative_Left_Input New Net Name=Negative_Right_Input
+Change Net Name : Old Net Name=Negative_Right_Input New Net Name=Negative_Left_Input
+Change Net Name : Old Net Name=NetOPAMP3_1 New Net Name=NetOPAMP3_6
+Change Net Name : Old Net Name=NetOPAMP3_6 New Net Name=NetOPAMP3_1

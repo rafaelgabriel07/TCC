@@ -121,11 +121,11 @@
       (Path "Design Resources")
       (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn")
       (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
-         "CompleteCircuit")
+         "Panorama")
       (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
          "Baxandall")
       (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
-         "Panorama")
+         "CompleteCircuit")
       (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
          "TPA3112D1")
       (Path "Outputs")
@@ -143,9 +143,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1268 24 839")
-        (Scroll "260 0")
-        (Zoom "100")
-        (Occurrence "/"))
+        (Scroll "97 180")
+        (Zoom "100"))
       (Path "C:\RAFAEL\UFRJ\TCC\SIMULATIONS\TCC.DSN")
       (Schematic "CompleteCircuit")
       (Page "PAGE1")))

@@ -1,6 +1,6 @@
 (ExpressProject "TCC"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1-2024 S001-[03/24/26]")
+  (SoftwareVersion "23.1-2024 S001-[04/08/26]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library")
@@ -53,7 +53,7 @@
          ".\tcc-pspicefiles\completecircuit\acsweep.sim"
         (DisplayName "CompleteCircuit-ACSweep")
         (Type "PSpice Profile"))
-      (ActiveProfile ".\tcc-pspicefiles\completecircuit\acsweep.sim"))
+      (ActiveProfile ".\tcc-pspicefiles\tpa3112d1\transient.sim"))
     (Folder "Model Libraries"
       (Sort User))
     (Folder "Stimulus Files"
@@ -121,18 +121,20 @@
       (Path "Design Resources")
       (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn")
       (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
-         "Panorama")
+         "TPA3112D1")
       (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
          "Baxandall")
       (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
          "CompleteCircuit")
       (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
-         "TPA3112D1")
+         "LoudnessControl")
+      (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
+         "Panorama")
       (Path "Outputs")
       (Path "PSpice Resources")
       (Path "PSpice Resources" "Simulation Profiles")
       (Select "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
-         "CompleteCircuit" "PAGE1"))
+         "TPA3112D1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -143,10 +145,11 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1268 24 839")
-        (Scroll "97 180")
-        (Zoom "100"))
+        (Scroll "272 308")
+        (Zoom "214")
+        (Occurrence "/"))
       (Path "C:\RAFAEL\UFRJ\TCC\SIMULATIONS\TCC.DSN")
-      (Schematic "CompleteCircuit")
+      (Schematic "TPA3112D1")
       (Page "PAGE1")))
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\PSpiceTI\tools\capture\library\pspice"))

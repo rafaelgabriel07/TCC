@@ -1,25 +1,10 @@
-Output: Gerber Files
-Type  : Gerber
+Output: Generates pick and place files
+Type  : Pick Place
 From  : Variant [[No Variations]] of Project [Power_Amplifier_PCB.PrjPcb]
-   Generated File[PCB.GTO]
-   Generated File[PCB.GTP]
-   Generated File[PCB.GTS]
-   Generated File[PCB.GTL]
-   Generated File[PCB.GBL]
-   Generated File[PCB.GBS]
-   Generated File[PCB.GBP]
-   Generated File[PCB.GBO]
-   Generated File[PCB.GM1]
-   Generated File[PCB.GM13]
-   Generated File[PCB.GM15]
-   Generated File[PCB.GD1]
-   Generated File[PCB.GG1]
-   Generated File[PCB.GM]
-   Generated File[PCB.EXTREP]
-   Generated File[PCB.REP]
+   Generated File[Pick Place for PCB.csv]
 
 
-Files Generated   : 16
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 23:24:36 On 03/05/2026
+Finished Output Generation At 22:59:20 On 19/05/2026

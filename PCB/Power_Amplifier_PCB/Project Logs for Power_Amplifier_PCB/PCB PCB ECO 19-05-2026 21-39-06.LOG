@@ -1,0 +1,80 @@
+Change Component Comment : Designator=L1 Old Comment=Inductor New Comment=33uH
+Change Component Comment : Designator=L2 Old Comment=Inductor New Comment=33uH
+Change Component Comment : Designator=L3 Old Comment=Inductor New Comment=33uH
+Change Component Comment : Designator=L4 Old Comment=Inductor New Comment=33uH
+Added Component: Designator=C23(CAPRADIAL_16X10)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/EEU-EE2W560/Panasonic/view-part/2337485/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "P13679-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "EEU-EE2W560"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "RADIAL-2 Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/EEU-EE2W560/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/EEU-EE2W560/Panasonic/view-part/2337485/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C24(CERAMIC0805)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/TAJC226M025RNJ/KEMET/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "TAJC226M025RNJ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/TAJC226M025RNJ/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TAJC226M025RNJ/KEMET/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C29(CERAMIC0603)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/TAJC226M025RNJ/KEMET/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "TAJC226M025RNJ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/TAJC226M025RNJ/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TAJC226M025RNJ/KEMET/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C30(CAPRADIAL_16X10)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/EEU-EE2W560/Panasonic/view-part/2337485/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "P13679-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "EEU-EE2W560"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "RADIAL-2 Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/EEU-EE2W560/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/EEU-EE2W560/Panasonic/view-part/2337485/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C31(CERAMIC0805)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/TAJC226M025RNJ/KEMET/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "TAJC226M025RNJ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/TAJC226M025RNJ/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TAJC226M025RNJ/KEMET/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C32(CERAMIC0603)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/TAJC226M025RNJ/KEMET/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "TAJC226M025RNJ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/TAJC226M025RNJ/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TAJC226M025RNJ/KEMET/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C23-N
+Added Pin To Net: NetName=+24_R Pin=C23-P
+Added Pin To Net: NetName=GND Pin=C24-1
+Added Pin To Net: NetName=+24_R Pin=C24-2
+Added Pin To Net: NetName=GND Pin=C29-1
+Added Pin To Net: NetName=+24_R Pin=C29-2
+Added Pin To Net: NetName=GND Pin=C30-N
+Added Pin To Net: NetName=+24_L Pin=C30-P
+Added Pin To Net: NetName=GND Pin=C31-1
+Added Pin To Net: NetName=+24_L Pin=C31-2
+Added Pin To Net: NetName=GND Pin=C32-1
+Added Pin To Net: NetName=+24_L Pin=C32-2
+Added Member To Class: ClassName=Amp1 Member=Component C23 100uF
+Added Member To Class: ClassName=Amp1 Member=Component C24 0.1uF
+Added Member To Class: ClassName=Amp1 Member=Component C29 1nF
+Added Member To Class: ClassName=Amp2 Member=Component C30 100uF
+Added Member To Class: ClassName=Amp2 Member=Component C31 0.1uF
+Added Member To Class: ClassName=Amp2 Member=Component C32 1nF

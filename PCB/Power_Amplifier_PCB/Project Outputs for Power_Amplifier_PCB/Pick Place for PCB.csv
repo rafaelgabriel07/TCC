@@ -1,0 +1,68 @@
+Altium Designer Pick and Place Locations
+C:\Rafael\UFRJ\TCC\PCB\Power_Amplifier_PCB\Project Outputs for Power_Amplifier_PCB\Pick Place for PCB.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       19/05/26
+Time:       22:59
+Revision:   08e99f2d85243bac6964dc24c8bec58584c562cf
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"U1","TPA3112D1","TopLayer","HTSSOP-28","31.1940","49.0620","270","25W Filter-Free Mono Class-D Audio Power Amplifier"
+"C32","1nF","TopLayer","CERAMIC0603","48.7680","28.9180","270",""
+"C31","0.1uF","TopLayer","CERAMIC0805","45.4660","28.8180","270",""
+"C30","100uF","TopLayer","CAPRADIAL_16X10","39.0680","27.1780","90",""
+"C29","1nF","TopLayer","CERAMIC0603","48.7680","36.3600","90",""
+"C24","0.1uF","TopLayer","CERAMIC0805","45.4660","36.4600","90",""
+"C23","100uF","TopLayer","CAPRADIAL_16X10","39.0680","38.1000","270",""
+"L4","33uH","TopLayer","DR124","61.4280","23.1540","180",""
+"L3","33uH","TopLayer","DR124","61.4280","9.9460","0",""
+"L2","33uH","TopLayer","DR124","61.4280","55.6660","180",""
+"L1","33uH","TopLayer","DR124","61.4280","42.4580","0",""
+"C22","1uF","TopLayer","CAPRADIAL_16X10","74.4220","25.6940","90",""
+"C12","1uF","TopLayer","CAPRADIAL_16X10","74.9300","7.4060","270",""
+"C11","1uF","TopLayer","CAPRADIAL_16X10","74.4220","58.2060","90",""
+"C10","1uF","TopLayer","CAPRADIAL_16X10","74.4220","39.9180","270",""
+"J5","Speaker","TopLayer","Borne_KF301-2P","85.6500","16.5500","90","2 Pin Terminal Block 5mm Pitch"
+"J4","Speaker","TopLayer","Borne_KF301-2P","85.6500","49.0620","90","2 Pin Terminal Block 5mm Pitch"
+"C28","0.1uF","TopLayer","CERAMIC0805","17.0970","8.2800","0",""
+"C27","0.33uF","TopLayer","CERAMIC0805","17.0970","3.2000","0",""
+"C26","0.1uF","TopLayer","CERAMIC0805","17.0970","57.3170","0",""
+"C25","0.33uF","TopLayer","CERAMIC0805","17.0970","62.3970","0",""
+"REG2","LM7812","TopLayer","TO-220-3","21.8800","5.7400","90","Regulador de tensão linha LM78XX"
+"REG1","LM7812","TopLayer","TO-220-3","20.7800","59.8570","270","Regulador de tensão linha LM78XX"
+"U2","TPA3112D1","TopLayer","HTSSOP-28","31.1940","16.5500","270","25W Filter-Free Mono Class-D Audio Power Amplifier"
+"SW2","DIP SWITCH - 2 POS","TopLayer","KF1001_-_2_POS","12.0170","27.5990","0",""
+"R8","100k","TopLayer","RES0603","26.1140","11.5350","270",""
+"R7","100k","TopLayer","RES0603","10.7470","19.4430","90",""
+"R6","100k","TopLayer","RES0603","13.2870","19.4430","90",""
+"R5","100k","TopLayer","RES0603","28.3940","23.0550","270",""
+"J3","Borne KF301-2P","TopLayer","Borne_KF301-2P","31.1940","3.2000","0","2 Pin Terminal Block 5mm Pitch"
+"C21","1uF","TopLayer","CERAMIC0603","18.1130","13.2360","0",""
+"C20","1uF","TopLayer","CERAMIC0603","18.1130","14.7350","0",""
+"C19","0.47uF","TopLayer","CERAMIC0603","37.3340","13.6250","0",""
+"C18","1uF","TopLayer","CERAMIC0603","21.0340","16.3750","90",""
+"C17","0.47uF","TopLayer","CERAMIC0603","37.3340","19.4750","0",""
+"C16","1uF","TopLayer","CERAMIC0603","22.9390","17.6750","270",""
+"C15","1nF","TopLayer","CERAMIC0603","51.6410","3.2530","270",""
+"C14","0.1uF","TopLayer","CERAMIC0805","48.9740","3.3530","270",""
+"C13","100uF","TopLayer","CAPRADIAL_16X10","42.1160","4.9930","90",""
+"SW1","DIP SWITCH - 2 POS","TopLayer","KF1001_-_2_POS","12.0170","60.1110","0",""
+"R4","100k","TopLayer","RES0603","26.1140","44.0470","270",""
+"R3","100k","TopLayer","RES0603","10.7470","51.9550","90",""
+"R2","100k","TopLayer","RES0603","13.2870","51.9550","90",""
+"R1","100k","TopLayer","RES0603","28.3940","55.5670","270",""
+"J2","Borne KF301-3P","TopLayer","Borne_KF301-3P","3.0000","32.8060","270",""
+"J1","Borne KF301-2P","TopLayer","Borne_KF301-2P","31.1940","62.4120","180","2 Pin Terminal Block 5mm Pitch"
+"C9","1uF","TopLayer","CERAMIC0603","18.1130","45.7480","0",""
+"C8","1uF","TopLayer","CERAMIC0603","18.1130","47.2720","0",""
+"C7","0.47uF","TopLayer","CERAMIC0603","37.3340","46.1370","0",""
+"C6","1uF","TopLayer","CERAMIC0603","21.0340","48.8870","90",""
+"C5","0.47uF","TopLayer","CERAMIC0603","37.3340","51.9870","0",""
+"C4","1uF","TopLayer","CERAMIC0603","22.9390","50.2050","270",""
+"C3","1nF","TopLayer","CERAMIC0603","48.9740","62.4860","90",""
+"C2","0.1uF","TopLayer","CERAMIC0805","51.6410","62.3860","90",""
+"C1","100uF","TopLayer","CAPRADIAL_16X10","42.1160","60.7460","270",""

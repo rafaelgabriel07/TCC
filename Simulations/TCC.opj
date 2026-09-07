@@ -1,6 +1,6 @@
 (ExpressProject "TCC"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1-2024 S001-[04/08/26]")
+  (SoftwareVersion "23.1-2024 S001-[09/07/26]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library")
@@ -52,8 +52,7 @@
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\tcc-pspicefiles\completecircuit\acsweep.sim"
         (DisplayName "CompleteCircuit-ACSweep")
-        (Type "PSpice Profile"))
-      (ActiveProfile ".\tcc-pspicefiles\tpa3112d1\transient.sim"))
+        (Type "PSpice Profile")))
     (Folder "Model Libraries"
       (Sort User))
     (Folder "Stimulus Files"
@@ -121,35 +120,35 @@
       (Path "Design Resources")
       (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn")
       (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
-         "TPA3112D1")
+         "LoudnessControl")
       (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
          "Baxandall")
       (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
          "CompleteCircuit")
       (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
-         "LoudnessControl")
-      (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
          "Panorama")
+      (Path "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
+         "TPA3112D1")
       (Path "Outputs")
       (Path "PSpice Resources")
       (Path "PSpice Resources" "Simulation Profiles")
       (Select "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
-         "TPA3112D1" "PAGE1"))
+         "LoudnessControl" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 821"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 720"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1268 24 839")
-        (Scroll "272 308")
-        (Zoom "214")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1268 24 738")
+        (Scroll "390 170")
+        (Zoom "200")
         (Occurrence "/"))
       (Path "C:\RAFAEL\UFRJ\TCC\SIMULATIONS\TCC.DSN")
-      (Schematic "TPA3112D1")
+      (Schematic "LoudnessControl")
       (Page "PAGE1")))
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\PSpiceTI\tools\capture\library\pspice"))

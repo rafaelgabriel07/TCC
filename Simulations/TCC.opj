@@ -52,7 +52,8 @@
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\tcc-pspicefiles\completecircuit\acsweep.sim"
         (DisplayName "CompleteCircuit-ACSweep")
-        (Type "PSpice Profile")))
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\tcc-pspicefiles\loudnesscontrol\acsweep.sim"))
     (Folder "Model Libraries"
       (Sort User))
     (Folder "Stimulus Files"
@@ -133,7 +134,7 @@
       (Path "PSpice Resources")
       (Path "PSpice Resources" "Simulation Profiles")
       (Select "Design Resources" "c:\rafael\ufrj\tcc\simulations\tcc.dsn"
-         "LoudnessControl" "PAGE1"))
+         "CompleteCircuit" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -144,11 +145,20 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1268 24 738")
-        (Scroll "390 170")
+        (Scroll "440 218")
         (Zoom "200")
         (Occurrence "/"))
       (Path "C:\RAFAEL\UFRJ\TCC\SIMULATIONS\TCC.DSN")
       (Schematic "LoudnessControl")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1268 24 738")
+        (Scroll "0 0")
+        (Zoom "100"))
+      (Path "C:\RAFAEL\UFRJ\TCC\SIMULATIONS\TCC.DSN")
+      (Schematic "CompleteCircuit")
       (Page "PAGE1")))
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\PSpiceTI\tools\capture\library\pspice"))
